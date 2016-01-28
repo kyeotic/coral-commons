@@ -9,7 +9,6 @@
     "watch:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress --watch",
     "build:js": "jspm bundle-sfx main dist/main-built.js",
     "build:deps": "jspm bundle main - [**/*] dist/dependencies.js --inject -sm",
-    "build:deps-full": "jspm bundle main - [**/*] dist/dependencies.js --inject -s",
     "build": "npm run build:css && npm run build:js"
   },
   "author": "",
