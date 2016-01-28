@@ -1,0 +1,21 @@
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:15:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:15:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:16:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:16:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:17:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:17:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:18:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:18:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:19:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:19:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:21:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:21:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:36:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:36:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:41:12: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:41:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router-redux@2.1.0/src/index.js:42:1: Unexpected token }

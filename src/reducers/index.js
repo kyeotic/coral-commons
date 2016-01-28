@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 import { UPDATE } from 'actions/index';
-
+import { routeReducer } from 'react-router-redux';
 
 function reducer(state = { }, action) {
 	switch (action.type) {
@@ -12,7 +12,8 @@ function reducer(state = { }, action) {
 }
 
 const rootReducer = combineReducers({
-	state: reducer
+	state: reducer,
+	routing: routeReducer
 });
 
 export default rootReducer;

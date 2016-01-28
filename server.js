@@ -21,7 +21,7 @@ if (!isProduction) {
 }
 
 //Index Route
-app.get('/', function(req, res){
+app.get('/*', function(req, res){
     res.sendFile(__dirname + (isProduction ? '/index-built.html' : '/index.html'));
 });
 

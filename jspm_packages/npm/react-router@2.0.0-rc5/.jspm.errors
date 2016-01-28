@@ -1,0 +1,1391 @@
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/AsyncUtils.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/AsyncUtils.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/AsyncUtils.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/AsyncUtils.js:4:8: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/computeChangedRoutes.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/computeChangedRoutes.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/computeChangedRoutes.js:3:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/computeChangedRoutes.js:53:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/computeChangedRoutes.js:53:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/computeChangedRoutes.js:53:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/computeChangedRoutes.js:53:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:5:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:5:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:7:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:7:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:8:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:8:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:9:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:9:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:9:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:10:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:10:46: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:11:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:11:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:11:10: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:11:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:11:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:11:38: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:12:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:12:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:12:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:12:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:13:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:13:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:13:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createTransitionManager.js:13:25: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:3:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:3:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:7:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:7:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:7:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:7:25: Unexpected token (
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createRouterHistory.js:7:26: Unexpected token createHistory
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:4:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:4:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:5:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/deprecateObjectProperties.js:5:21: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:3:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:3:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:4:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:4:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:5:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/browserHistory.js:5:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:3:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:3:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:4:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:4:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:5:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/hashHistory.js:5:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getComponents.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getComponents.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getComponents.js:3:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getComponents.js:30:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getComponents.js:30:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getComponents.js:30:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getComponents.js:30:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getRouteParams.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getRouteParams.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getRouteParams.js:3:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getRouteParams.js:21:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getRouteParams.js:21:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getRouteParams.js:21:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/getRouteParams.js:21:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:3:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:3:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:4:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:4:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:5:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:5:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:6:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:6:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:7:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:47:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:47:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:47:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRedirect.js:47:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:3:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:4:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:4:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:5:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/createMemoryHistory.js:5:37: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:5:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:5:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:6:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:6:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:20:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:20:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:20:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexLink.js:20:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:3:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:4:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:4:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:5:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:5:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:56:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:56:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:56:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Lifecycle.js:56:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:3:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:4:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:22:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:22:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:22:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/History.js:22:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/isActive.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/isActive.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/isActive.js:3:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/isActive.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/isActive.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/isActive.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/isActive.js:4:30: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:3:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:3:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:4:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:4:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:5:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:5:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:6:38: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:6:41: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:6:77: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:7:46: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:46:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:46:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:46:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/IndexRoute.js:46:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:7:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:7:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:9:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:9:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:9:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:10:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:10:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:10:37: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:11:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:11:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:11:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:12:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:12:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:12:58: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:46:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:46:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:46:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/match.js:46:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:3:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:4:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:5:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:6:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:178:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:178:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:178:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/matchRoutes.js:178:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:4:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:25:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:25:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:34:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:34:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:36:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:36:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:38:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:38:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:40:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:40:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:43:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:43:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:44:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:44:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:44:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:44:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:46:10: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:46:10: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:46:12: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:47:11: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:47:11: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:47:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:48:12: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:48:12: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:48:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:49:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:49:13: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:49:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:50:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:50:8: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PropTypes.js:50:10: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:3:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:3:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:4:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:4:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:5:38: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:5:41: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:5:77: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:6:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:7:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:90:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:90:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:90:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Redirect.js:90:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:7:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:7:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:8:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:8:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:8:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:156:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:156:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:156:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Link.js:156:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:6:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:7:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:8:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:8:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/PatternUtils.js:8:23: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:7:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:7:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:8:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:8:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:8:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:9:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:9:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:9:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:11:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:11:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:11:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:11:37: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:12:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:12:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:12:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:13:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:13:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:13:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:13:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:14:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:14:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:14:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:15:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:15:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:15:58: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:16:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:16:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:16:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:16:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:166:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:166:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:166:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Router.js:166:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:3:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:4:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:4:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:36:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:36:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:36:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteContext.js:36:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:3:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:3:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:4:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:4:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:5:45: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:6:39: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:44:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:44:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:44:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/Route.js:44:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:6:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:7:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:8:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:9:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:9:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:9:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:10:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:10:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouteUtils.js:10:21: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:6:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:7:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterUtils.js:7:39: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:5:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:5:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:6:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:6:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:8:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:8:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:8:39: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:9:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:9:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:9:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:10:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:10:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:11:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:11:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:11:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:11:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:135:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:135:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:135:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RouterContext.js:135:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:3:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:3:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:4:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:4:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:5:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:5:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:19:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:19:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:19:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/RoutingContext.js:19:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:7:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:7:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:9:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:9:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:9:37: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:10:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:10:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:10:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:39:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:39:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:39:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRoutes.js:39:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:5:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:6:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/TransitionUtils.js:6:21: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:3:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:4:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/warning.js:4:21: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:3:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:4:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:4:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:5:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/useRouterHistory.js:5:25: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:1:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:1:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:2:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:2:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:3:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/browserHistory.js:3:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/computeChangedRoutes.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/computeChangedRoutes.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/computeChangedRoutes.js:1:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/computeChangedRoutes.js:51:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/computeChangedRoutes.js:51:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/computeChangedRoutes.js:51:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/computeChangedRoutes.js:51:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/AsyncUtils.js:1:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/AsyncUtils.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/AsyncUtils.js:23:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/AsyncUtils.js:23:8: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:1:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:2:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:2:37: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:4:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createMemoryHistory.js:4:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:1:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:1:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:7:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:7:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:7:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:7:25: Unexpected token (
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createRouterHistory.js:7:26: Unexpected token createHistory
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getComponents.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getComponents.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getComponents.js:1:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getComponents.js:28:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getComponents.js:28:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getComponents.js:28:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getComponents.js:28:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:1:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:1:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:2:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:3:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:3:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:4:46: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:5:10: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:5:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:5:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:5:38: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:6:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:6:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:7:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:7:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:17:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:17:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:17:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:17:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:63:25: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:63:28: Unexpected token nextState
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:63:49: Unexpected token ,
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:63:51: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:63:59: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:63:59: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:64:11: Unexpected token else
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:64:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:67:8: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:93:25: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:93:50: Unexpected token }
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:128:28: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:128:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:130:7: Unexpected token const
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:130:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:142:6: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/createTransitionManager.js:143:3: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:2:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:2:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:15:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:15:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:15:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/deprecateObjectProperties.js:15:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getRouteParams.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getRouteParams.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getRouteParams.js:1:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getRouteParams.js:22:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getRouteParams.js:22:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getRouteParams.js:22:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/getRouteParams.js:22:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:1:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:1:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:2:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:20:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:20:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:20:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/History.js:20:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:2:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:2:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:3:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:3:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:4:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:4:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:5:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:48:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:48:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:48:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRedirect.js:48:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:2:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:2:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:10:12: Unexpected token <
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:10:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:10:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:10:19: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:10:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:10:57: Unexpected token true
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:10:59: Unexpected token /
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:11:3: Unexpected token }
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:13:2: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:15:1: Unexpected token export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:15:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:15:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexLink.js:15:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:1:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:1:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:2:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:2:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:3:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/hashHistory.js:3:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:2:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:2:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:3:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:3:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:4:45: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:5:46: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:49:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:49:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:49:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/IndexRoute.js:49:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/isActive.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/isActive.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/isActive.js:1:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/isActive.js:115:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/isActive.js:115:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/isActive.js:115:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/isActive.js:115:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:2:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:2:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:26:33: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:26:36: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Link.js:28:1: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:1:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:1:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:2:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:2:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:3:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:3:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:65:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:65:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:65:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Lifecycle.js:65:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:1:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:1:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:58:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:58:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:84:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:84:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:146:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:146:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:150:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:150:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:167:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PatternUtils.js:167:8: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:1:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:1:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:2:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:3:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:4:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:173:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:173:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:173:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/matchRoutes.js:173:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:1:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:1:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:3:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:3:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:4:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:4:37: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:5:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:6:58: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:17:48: Unexpected token options
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:17:56: Unexpected token }
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:17:67: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:17:69: Unexpected token {
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:18:3: Unexpected token invariant
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:40:22: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:40:25: Unexpected token nextState
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:42:4: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/match.js:43:1: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:1:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:10:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:17:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:17:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:25:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:25:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:26:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:26:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:27:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:27:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:28:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:28:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:30:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:30:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:30:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/PropTypes.js:30:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:2:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:2:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:3:45: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:4:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:5:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:89:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:89:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:89:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Redirect.js:89:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:2:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:2:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:3:45: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:4:39: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:42:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:42:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:42:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Route.js:42:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:1:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:1:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:2:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:2:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:3:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:3:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:5:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:5:37: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:6:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:7:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:7:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:8:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:8:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:9:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:9:58: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:10:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:10:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:10:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:38:16: Unexpected token <
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:38:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:38:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:38:32: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:38:35: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:38:42: Expected '/' in regular expression literal
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:126:39: Unexpected token props
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:126:45: Unexpected token }
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:128:5: Unexpected token if
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:126:11: destructuring must have an initializer
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:126:11: const variables must have an initializer
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:128:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:136:7: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:136:10: Unexpected token props
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:137:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:137:14: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:137:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:138:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:138:13: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:138:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:144:6: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:145:3: Unexpected token }
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/Router.js:147:1: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:1:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:1:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:2:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:2:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:34:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:34:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:34:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteContext.js:34:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:1:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:1:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:2:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:2:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:4:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:4:39: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:5:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:5:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:5:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:6:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:7:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:7:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:7:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:45:9: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:45:12: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:46:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:46:26: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:46:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:51:5: Unexpected token if
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:51:18: Unexpected token {
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterContext.js:53:5: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:1:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:1:39: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:5:5: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:6:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:6:22: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:6:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:7:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:7:13: Unexpected token :
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:7:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouterUtils.js:9:1: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:2:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:2:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:8:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:27:12: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:27:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:27:29: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:27:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RouteUtils.js:28:1: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:1:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:2:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:2:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:35:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:35:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:76:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/TransitionUtils.js:76:8: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:1:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:2:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:2:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:3:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:3:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:11:12: Unexpected token <
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:11:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:11:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:11:28: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:11:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:11:42: Expected '/' in regular expression literal
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:15:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:15:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:15:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/RoutingContext.js:15:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:1:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:3:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:3:32: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:3:37: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:4:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:4:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:23:33: Unexpected token options
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:23:41: Unexpected token }
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:23:47: Unexpected token )
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:23:49: Unexpected token {
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:24:5: Unexpected token const
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:26:14: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:26:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:26:26: Unexpected token ...
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:26:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRoutes.js:28:1: Unexpected token }
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:1:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:1:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:2:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:2:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:2:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:4:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/useRouterHistory.js:4:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:1:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:1:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:1:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:1:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:3:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/warning.js:3:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:2:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:2:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:2:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:2:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:3:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:3:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:3:13: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:3:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:4:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:4:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:4:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:7:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:7:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:7:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:8:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:8:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:8:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:9:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:9:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:9:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:10:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:10:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:10:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:10:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:13:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:13:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:13:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:13:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:14:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:14:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:14:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:14:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:15:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:15:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:15:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:15:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:18:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:18:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:18:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:18:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:19:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:19:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:19:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:20:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:20:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:20:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:20:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:21:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:21:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:21:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:21:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:22:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:22:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:22:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:22:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:23:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:23:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:23:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:23:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:24:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:24:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:24:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:24:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:25:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:25:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:25:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:28:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:28:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:28:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:28:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:29:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:29:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:29:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:29:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:30:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:30:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:30:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:30:33: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:32:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:32:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:32:8: Unexpected reserved word default
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:32:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/modules/index.js:32:21: Semi-colon expected
+
+MultipleErrors: C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:4:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:4:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:4:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:4:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:5:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:5:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:5:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:5:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:6:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:6:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:6:14: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:6:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:7:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:7:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:7:16: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:7:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:8:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:8:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:8:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:8:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:9:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:9:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:9:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:9:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:12:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:12:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:12:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:12:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:13:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:13:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:13:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:13:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:14:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:14:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:14:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:14:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:15:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:15:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:15:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:15:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:16:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:16:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:16:18: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:16:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:17:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:17:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:17:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:17:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:18:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:18:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:18:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:18:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:19:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:19:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:19:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:19:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:22:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:22:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:22:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:22:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:23:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:23:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:23:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:23:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:24:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:24:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:24:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:24:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:25:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:25:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:25:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:25:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:26:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:26:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:26:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:26:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:27:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:27:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:27:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:27:27: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:30:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:30:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:30:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:30:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:31:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:31:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:31:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:31:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:33:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:33:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:33:30: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:34:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:34:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:34:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:34:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:35:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:35:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:35:25: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:35:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:36:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:36:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:36:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:36:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:37:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:37:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:37:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:37:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:38:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:38:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:38:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:38:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:39:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:39:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:39:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:39:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:40:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:40:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:40:15: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:40:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:41:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:41:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:41:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:41:20: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:42:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:42:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:42:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:42:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:43:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:43:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:43:28: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:43:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:45:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:45:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:45:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:48:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:48:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:48:24: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:48:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:49:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:49:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:49:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:49:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:50:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:50:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:50:21: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:50:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:51:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:51:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:51:23: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:51:26: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:52:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:52:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:52:29: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:52:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:53:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:53:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:53:31: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:53:34: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:54:1: Unexpected reserved word import
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:54:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:54:17: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:54:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:55:1: Unexpected reserved word export
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:55:8: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:55:19: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:55:22: Semi-colon expected
+C:/Users/Tyrsius/AppData/Local/.jspm/packages/npm/react-router@2.0.0-rc5/es6/index.js:55:22: Unexpected reserved word default
