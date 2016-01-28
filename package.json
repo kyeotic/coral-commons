@@ -17,6 +17,7 @@
     "configFile": "jspm.config.js",
     "dependencies": {
       "firebase": "npm:firebase@^2.4.0",
+      "immutable": "npm:immutable@^3.7.6",
       "react": "npm:react@^0.14.3",
       "react-bootstrap": "npm:react-bootstrap@^0.28.2",
       "react-dom": "npm:react-dom@^0.14.3",

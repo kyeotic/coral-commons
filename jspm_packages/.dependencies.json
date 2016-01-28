@@ -462,5 +462,6 @@
   },
   "npm:lodash-compat@3.10.2": {
     "process": "github:jspm/nodelibs-process@^0.1.0"
-  }
+  },
+  "npm:immutable@3.7.6": {}
 }
