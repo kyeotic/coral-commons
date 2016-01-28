@@ -1,0 +1,44 @@
+{
+  "name": "coral",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "setup": "npm i && jspm i",
+    "build:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress",
+    "watch:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress --watch",
+    "build:js": "jspm bundle-sfx main dist/main-built.js",
+    "build:deps": "jspm bundle main - [**/*] dist/dependencies.js --inject -sm",
+    "build": "npm run build:css && npm run build:js"
+  },
+  "author": "",
+  "license": "MIT",
+  "jspm": {
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "firebase": "npm:firebase@^2.4.0",
+      "react": "npm:react@^0.14.3",
+      "react-dom": "npm:react-dom@^0.14.3",
+      "react-redux": "npm:react-redux@^4.0.1",
+      "redux": "npm:redux@^3.0.5",
+      "redux-devtools": "npm:redux-devtools@^3.0.0",
+      "redux-thunk": "npm:redux-thunk@^1.0.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.19",
+    "pm2": "^0.15.10",
+    "stylus": "^0.53.0",
+    "watch": "^0.16.0"
+  }
+}
