@@ -41,6 +41,7 @@ schema:
           type: 
             type: string
             enum: [Owner, Renter]
+          name: {type: string}
           houseId: {type: string}
           userId:  {type: string}
           phones:
