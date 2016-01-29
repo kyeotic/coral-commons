@@ -35,11 +35,14 @@
     }
   },
   "dependencies": {
+    "body-parser": "^1.14.2",
     "express": "^4.13.3",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react-dom": "^0.14.3",
+    "request-promise": "^2.0.0"
   },
   "devDependencies": {
+    "blaze_compiler": "0.0.36",
     "jspm": "^0.16.19",
     "pm2": "^0.15.10",
     "stylus": "^0.53.0",
