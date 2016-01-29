@@ -1,19 +1,22 @@
 functions:
-	- isUser(username): auth.uid !== null && auth.username === username
-	- hasRole(roleName): root.users[auth.username].roles[roleName].exists()
+  - isUser(uid): auth.uid !== null && auth.uid === uid
+  - hasRole(roleName): root.users[auth.uid].role === roleName && isVerified()
+  - isVerified(): root.users[auth.uid].role !== 'Unverified' && root.users[auth.uid].role.exists()
 
 schema:
-	type: object
-	properties:
-		users:
-			type: object
-			$userId:
-				type: object
-				properties:
-				
+  type: object
+  properties:
+    users:
+      type: object
+      $userId:
+        type: object
+        properties:
+          role:
+            type: string
+            constraint: (hasRole('Admin') || (hasRole('Board Member') && next !== 'Admin'))
 
 
 access:
-	- location: /
-		read:  hasRole('Verified')
-		write: true
+  - location: /
+    read:  isVerified()
+    write: true
