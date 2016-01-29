@@ -18,8 +18,7 @@ schema:
           role:
             type: string
             constraint: isManager() && next !== 'Admin'
-          name:
-            type: string
+          name: { type: string }
 
 
 access:
