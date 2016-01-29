@@ -17,9 +17,38 @@ schema:
         properties:
           role:
             type: string
+            enum: [Admin, Board Member, Verified, Unverified]
             constraint: isManager() && next !== 'Admin'
           name: { type: string }
-
+          residentId: { type: string, constraint: isManager() }
+    houses:
+     type: object
+     $house:
+      type: object
+      constraint: isManager()
+      properties:
+        house: {type: number}
+        garage: {type: string}
+        residents: 
+          type: object
+          $resident: {type: string}
+    residents:
+      type: object
+      $resident:
+        type: object
+        constraint: isManager()
+        properties:
+          type: 
+            type: string
+            enum: [Owner, Renter]
+          houseId: {type: string}
+          userId:  {type: string}
+          phones:
+            type: object
+            $phone: {type: string}
+          emails:
+            type: object
+            $email: {type: string}
 
 access:
   - location: /

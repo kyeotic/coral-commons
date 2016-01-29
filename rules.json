@@ -6,15 +6,79 @@
       ".write":"false",
       ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
       "$userId": {
-        ".write":"((((auth.uid!==null&&auth.uid===$userId||root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.hasChildren())&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&newData.child('role').val()!=='Admin'&&(!newData.child('role').exists()||newData.child('role').isString())&&(!newData.child('name').exists()||newData.child('name').isString()))))",
+        ".write":"((((auth.uid!==null&&auth.uid===$userId||root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.hasChildren())&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&newData.child('role').val()!=='Admin'&&(!newData.child('role').exists()||newData.child('role').isString())&&(!newData.child('role').exists()||newData.child('role').val()==='Admin'||newData.child('role').val()==='Board Member'||newData.child('role').val()==='Verified'||newData.child('role').val()==='Unverified')&&(!newData.child('name').exists()||newData.child('name').isString())&&(!newData.child('residentId').exists()||newData.child('residentId').isString()))))",
         ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
         "role": {
-          ".write":"((((auth.uid!==null&&auth.uid===$userId||root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&newData.val()!=='Admin'&&(!newData.exists()||newData.isString()))))",
+          ".write":"((((auth.uid!==null&&auth.uid===$userId||root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&newData.val()!=='Admin'&&(!newData.exists()||newData.isString())&&(!newData.exists()||newData.val()==='Admin'||newData.val()==='Board Member'||newData.val()==='Verified'||newData.val()==='Unverified'))))",
           ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
         },
         "name": {
           ".write":"((((auth.uid!==null&&auth.uid===$userId||root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
           ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "residentId": {
+          ".write":"((((auth.uid!==null&&auth.uid===$userId||root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        }
+      }
+    },
+    "houses": {
+      ".write":"false",
+      ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+      "$house": {
+        ".write":"false",
+        ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+        "house": {
+          ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isNumber()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "garage": {
+          ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "residents": {
+          ".write":"false",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+          "$resident": {
+            ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+            ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+          }
+        }
+      }
+    },
+    "residents": {
+      ".write":"false",
+      ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+      "$resident": {
+        ".write":"false",
+        ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+        "type": {
+          ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString())&&(!newData.exists()||newData.val()==='Owner'||newData.val()==='Renter'))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "houseId": {
+          ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "userId": {
+          ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "phones": {
+          ".write":"false",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+          "$phone": {
+            ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+            ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+          }
+        },
+        "emails": {
+          ".write":"false",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+          "$email": {
+            ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+            ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+          }
         }
       }
     }
