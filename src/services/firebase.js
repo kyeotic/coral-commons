@@ -10,7 +10,7 @@ export default rootFirebase
 export function getAuth(dispatch) {
 	rootFirebase.onAuth(auth => {
 		if (!auth) {
-			return console.log('Unauthenticed')
+			return
 		}
 		dispatch(updateEmail(auth.password.email))
 	})
