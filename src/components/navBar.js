@@ -1,22 +1,37 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { Navbar, Nav, MenuItem} from 'react-bootstrap';
+import { Navbar, Nav, MenuItem, NavDropdown, Glyphicon, Button} from 'react-bootstrap';
 import { Link } from 'react-router';
 import NavLink from 'components/navLink';
 
 export default class NavBar extends Component {
+    static propTypes = {
+        isCollapseExpanded: PropTypes.bool.isRequired,
+        logout: PropTypes.func.isRequired,
+        toggleCollapse: PropTypes.func.isRequired
+    }
 	render() {
 		return (
-            <Navbar inverse>
+            <Navbar inverse fluid expanded={this.props.isCollapseExpanded} onToggle={this.props.toggleCollapse}>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <a href="#">Coral Commons</a>
                     </Navbar.Brand>
+                    <Navbar.Toggle  />
                 </Navbar.Header>
-                <Nav>
-                    <NavLink href={'/'} label={'Users'} />
-                    <NavLink href={'/residents'} label={'Residents'} />
-                </Nav>
+                <Navbar.Collapse>
+                    <Nav>
+                        <NavLink href={'/'} label={'Users'} />
+                        <NavLink href={'/residents'} label={'Residents'} />
+                    </Nav>
+                    <Nav pullRight>
+                        <NavDropdown title={'User'}>
+                            <MenuItem>Action</MenuItem>
+                            <MenuItem divider />
+                            <MenuItem onClick={this.props.logout}>Log Out <Glyphicon glyph={'log-out'} /></MenuItem>
+                        </NavDropdown>
+                    </Nav>
+                </Navbar.Collapse>
             </Navbar>
 		);
 	}

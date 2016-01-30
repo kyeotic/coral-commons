@@ -6,6 +6,6 @@ const rootFirebase = new Firebase("https://coral-commons-dev.firebaseio.com")
 
 export default rootFirebase
 
-rootFirebase.child('users').on('value', function(users) {
-	console.log('user loaded', users)
-}, error => console.error('user error', error))
+/*rootFirebase.child('users').on('value', function(users) {
+	console.log('user loaded', users.val())
+}, error => console.error('user error', error))*/

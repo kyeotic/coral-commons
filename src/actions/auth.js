@@ -61,3 +61,13 @@ export function loginUser(email, password) {
 			.catch(error => dispatch(loginUserError(error)))
 	}
 }
+
+//Logout
+//
+export const LOG_OUT_USER = 'LOG_OUT_USER'
+let logoutUser = action(LOG_OUT_USER)
+
+export function logout() {
+	Firebase.unauth()
+	return logoutUser()
+}
