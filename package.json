@@ -17,6 +17,7 @@
   "jspm": {
     "configFile": "jspm.config.js",
     "dependencies": {
+      "axios": "npm:axios@^0.9.1",
       "firebase": "npm:firebase@^2.4.0",
       "immutable": "npm:immutable@^3.7.6",
       "react": "npm:react@^0.14.3",

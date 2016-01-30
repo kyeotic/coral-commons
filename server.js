@@ -7,8 +7,6 @@ var port = process.env.PORT || 9000,
     jspmConfig = __dirname + jspmConfigName,
     jspmDir = __dirname + '/jspm_packages/',
     express = require('express'),
-    firebaseSecret = process.env.firebaseSecret || require(__dirname + '/env.json').firebaseSecret,
-    request = require('request-promise'),
 
     //Server
     bodyParser = require('body-parser'),
@@ -28,28 +26,7 @@ if (!isProduction) {
 //Allow JSON parsing
 app.use(bodyParser.json());
 
-//Create User
-var getUsers = {
-  uri: 'https://coral-commons-dev.firebaseio.com/users.json',
-    qs: { auth: firebaseSecret},
-    json: true 
-};
-app.post('/user', function(req, res) {
-    request(getUsers)
-        .then(function(users) {
-            //Create User
-            if (!users || true) {
-                res.json({ message: 'able to create '});
-            }
-            else {
-                res.status(403).json({ message: 'User already exists.' });
-            }
-        })
-        .catch(function(error) {
-            console.log('error in get', error);
-            res.status(500).json({ message: 'Unable to connect to data store', error: error });
-        });
-});
+require('./userRoute')(app);
 
 //Index Route
 app.get('/*', function(req, res){

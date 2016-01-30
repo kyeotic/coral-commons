@@ -1,0 +1,1 @@
+module.exports = require("npm:axios@0.9.1/index.js");

@@ -1,6 +1,5 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { action } from 'actions/index';
 import firebase from 'firebase';
 
 import NavBar from 'components/navBar';
