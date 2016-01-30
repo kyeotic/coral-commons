@@ -2,7 +2,7 @@ import Firebase from 'firebase'
 
 const rootFirebase = new Firebase("https://coral-commons-dev.firebaseio.com")
 
-rootFirebase.unauth()
+//rootFirebase.unauth()
 
 export default rootFirebase
 
