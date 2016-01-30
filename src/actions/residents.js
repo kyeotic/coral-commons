@@ -9,18 +9,20 @@ export const RESIDENT_UPDATED = 'RESIDENT_UPDATED'
 const residentAdded = action(RESIDENT_ADDED)
 const residentRemoved = action(RESIDENT_REMOVED)
 const residentUpdated = action(RESIDENT_REMOVED)
-const residents = Firebase.child('residents')
 
-export function startListeningToResidents(dispatch) {	
+
+export function startListeningToResidents(dispatch) {
+	const residents = Firebase.child('residents')	
 	residents.on(CHILD_ADDED, snapshot => 
-		dispatch(residentAdded({id snapshot.key(), value: snapshot.val()}))
+		dispatch(residentAdded({id: snapshot.key(), value: snapshot.val()})))
 	residents.on(CHILD_REMOVED, snapshot => 
-		dispatch(residentRemoved({id: snapshot.key()}))
+		dispatch(residentRemoved({id: snapshot.key()})))
 	residents.on(CHILD_CHANGED, snapshot => 
-		dispatch(residentUpdated({id snapshot.key(), value: snapshot.val()}))
+		dispatch(residentUpdated({id: snapshot.key(), value: snapshot.val()})))
 }
 
 export function stopListeningToResidents() {
+	const residents = Firebase.child('residents')
 	residents.off(residentAdded)
 	residents.off(residentRemoved)
 	residents.off(residentUpdated)
