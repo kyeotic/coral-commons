@@ -4,6 +4,13 @@ import { Navbar, Nav, MenuItem, NavDropdown, Glyphicon, Button} from 'react-boot
 import { Link } from 'react-router';
 import NavLink from 'components/navLink';
 
+import { logout } from 'actions/auth'
+import { toggleCollapse } from 'actions/navigation'
+
+@connect(state => ({
+    userEmail: state.auth.get('email'),
+    isCollapseExpanded: state.navigation.get('isCollapseExpanded')
+}), { logout, toggleCollapse })
 export default class NavBar extends Component {
     static propTypes = {
         isCollapseExpanded: PropTypes.bool.isRequired,
@@ -25,10 +32,10 @@ export default class NavBar extends Component {
                         <NavLink href={'/residents'} label={'Residents'} />
                     </Nav>
                     <Nav pullRight>
-                        <NavDropdown title={'User'}>
-                            <MenuItem>Action</MenuItem>
+                        <NavDropdown title={this.props.userEmail}>
+                            <MenuItem>Profile</MenuItem>
                             <MenuItem divider />
-                            <MenuItem onClick={this.props.logout}>Log Out <Glyphicon glyph={'log-out'} /></MenuItem>
+                            <MenuItem onClick={this.props.logout}><Glyphicon glyph={'log-out'}/> Log Out</MenuItem>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
