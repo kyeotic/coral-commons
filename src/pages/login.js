@@ -3,12 +3,12 @@ import { connect } from 'react-redux'
 import { Input, Panel, ButtonInput } from 'react-bootstrap'
 import { 
     updateEmail, updatePassword, updateName,
-    toggleRegister, registerUser, loginUser
+    toggleRegister, registerUser, loginUser, resetPassword
 } from 'actions/auth'
 
 @connect(state => {
     return state.auth.toJS()
-}, { updateEmail, updatePassword, updateName, toggleRegister, registerUser, loginUser } )
+}, { updateEmail, updatePassword, updateName, toggleRegister, registerUser, loginUser, resetPassword } )
 export default class Login extends Component {
     update = (newState) => {
         console.log(newState)
@@ -21,7 +21,7 @@ export default class Login extends Component {
             this.props.loginUser(this.props.email, this.props.password)
     }
 	render() {
-        const { email, password, name, showRegister, registering, registerError, } = this.props
+        const { email, password, name, showRegister, registering, authError, passwordReset } = this.props
 		return (
             <div className={'login-container'}>
                 <div className={'login-box container'}>
@@ -29,23 +29,30 @@ export default class Login extends Component {
                     <form onSubmit={this.handleSubmit}>
                         <Input type="text"
                             placeholder={'name@domain.com'}
-                            label={'Email Address' + (this.props.loginError === 'INVALID_USER' ? ' - Not Found' 
-                                                                    : this.props.registerError === 'EMAIL_TAKEN' ? ' - Email Taken' : '')}
+                            label={'Email Address' + (authError === 'INVALID_USER' ? ' - Not Found' 
+                                                    : authError === 'EMAIL_TAKEN' ? ' - Email Taken'
+                                                    : authError === 'EMAIL_REQUIRED' ? ' - Required'
+                                                    : passwordReset ? ' - Password Reset' : '')}
                             value={email}
-                            bsStyle={this.props.loginError === 'INVALID_USER' || this.props.registerError === 'EMAIL_TAKEN' ? 'error' : ''} hasFeedback
+                            bsStyle={['INVALID_USER', 'EMAIL_TAKEN', 'EMAIL_REQUIRED'].indexOf(authError) !== -1  
+                            ? 'error' 
+                            : passwordReset ? 'success' : ''} hasFeedback
                             onChange={(e) => this.props.updateEmail(e.target.value)} />
                         <Input type="password"
                             placeholder={'password'}
-                            label={'Password' + (this.props.loginError === 'INVALID_PASSWORD' ? ' - Invalid' : '')}
+                            label={'Password' + (authError === 'INVALID_PASSWORD' ? ' - Invalid' 
+                                                : authError === 'PASSWORD_REQUIRED' ? ' - Required' : '')}
                             value={password}
-                            bsStyle={this.props.loginError === 'INVALID_PASSWORD' ? 'error' :''} hasFeedback
+                            bsStyle={['INVALID_PASSWORD', 'PASSWORD_REQUIRED'].indexOf(authError) !== -1 ? 'error' :''} hasFeedback
                             onChange={(e) => this.props.updatePassword(e.target.value)} />
-                        {!showRegister ? null : 
+                        {showRegister ? 
                             <Input type="text"
-                                label={'Name'}
+                                label={'Name' + (authError === 'NAME_REQUIRED' ? ' - Required' : '')}
                                 placeholder={'John Smith'}
                                 value={name}
+                                bsStyle={authError === 'NAME_REQUIRED' ? 'error' :''} hasFeedback
                                 onChange={(e) => this.props.updateName(e.target.value)} />
+                            : <button type="button" onClick={() => this.props.resetPassword(email)} className={'btn btn-sm btn-link'}>Reset Password</button>
                         }
                         <div className={'pull-right'}>
                             <button type="submit" className={'btn btn-primary'}>{showRegister ? 'Create User' : 'Login'}</button>

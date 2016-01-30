@@ -2,7 +2,8 @@ import Immutable from 'immutable'
 import { 
 	UPDATE_FORM_EMAIL, UPDATE_FORM_PASSWORD, UPDATE_FORM_NAME,
 	TOGGLE_REGISTER, REGISTER_USER_START, REGISTER_USER_SUCCESS, REGISTER_USER_ERROR,
-	LOGIN_USER_START, LOGIN_USER_SUCCESS, LOGIN_USER_ERROR, LOG_OUT_USER
+	LOGIN_USER_START, LOGIN_USER_SUCCESS, LOGIN_USER_ERROR, LOG_OUT_USER,
+	RESET_PASSWORD_START, RESET_PASSWORD_SUCCESS, RESET_PASSWORD_ERROR
 } from'actions/auth'
 import Firebase from 'services/firebase'
 
@@ -11,8 +12,9 @@ let defaultState = {
 	isLoggingIn: false,
 	showRegister: false,
 	isRegistering: false,
-	registerError: null,
-	loginError: null,
+	authError: null,
+	isResettingPassword: false,
+	passwordReset: false,
 
 	uid: null,
 	email: null,
@@ -34,28 +36,26 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 	case REGISTER_USER_START:
 		return state.withMutations(s => {
 			s.set('isRegistering', true)
-			 .set('registerError', null)
-			 .set('loginError', null)
+			 .set('authError', null)
 		})
 	case REGISTER_USER_SUCCESS:
 		return state.withMutations(s => {
 			s.set('isRegistering', false)
 			 .set('showRegister', false)
 			 .set('isLoggedIn', true)
-			 .set('registerError', null)
 		})
 	case REGISTER_USER_ERROR:
 		return state.withMutations(s => {
 			s.set('isRegistering', false)
-			 .set('registerError', action.payload)
+			 .set('authError', action.payload)
 		})
 
 	//Login
 	case LOGIN_USER_START:
 		return state.withMutations(s => {
 			s.set('isLoggingIn', true)
-			 .set('loginError', null)
-			 .set('registerError', null)
+			 .set('authError', null)
+			 .set('passwordReset', false)
 		})
 	case LOGIN_USER_SUCCESS:
 		return state.withMutations(s => {
@@ -65,7 +65,7 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 	case LOGIN_USER_ERROR:
 		return state.withMutations(s => {
 			s.set('isLoggingIn', false)
-			 .set('loginError', action.payload)
+			 .set('authError', action.payload)
 		})
 
 	case LOG_OUT_USER:
@@ -75,6 +75,25 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 			 .set('password', null)
 			 .set('name', null)
 		})
+
+	//Reset Password
+	case RESET_PASSWORD_START:
+		return state.withMutations(s => {
+			s.set('authError', null)
+			 .set('isResettingPassword', true)
+			 .set('passwordReset', false)
+		})
+	case RESET_PASSWORD_SUCCESS:
+		return state.withMutations(s => {
+			s.set('isResettingPassword', false)
+			 .set('passwordReset', true)
+		})
+	case RESET_PASSWORD_ERROR:
+		return state.withMutations(s => {
+			s.set('authError', action.payload)
+			 .set('isResettingPassword', false)
+		})
+
 
 	default:
 		return state
