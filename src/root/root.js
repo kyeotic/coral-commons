@@ -9,8 +9,8 @@ import Residents from 'pages/residents';
 const routes = (
 	<Router history={browserHistory}>
       <Route path="/" component={App}>
-      	<IndexRoute component={Users} />
-      	<Route path="residents" component={Residents} />
+      	<IndexRoute component={Residents} />
+      	<Route path="users" component={Users} />
       </Route>
     </Router>
 );

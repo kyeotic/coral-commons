@@ -28,8 +28,8 @@ export default class NavBar extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav>
-                        <NavLink href={'/'} label={'Users'} />
-                        <NavLink href={'/residents'} label={'Residents'} />
+                        <NavLink href={'/'} label={'Residents'} />
+                        <NavLink href={'/users'} label={'Users'} />
                     </Nav>
                     <Nav pullRight>
                         <NavDropdown title={this.props.userEmail}>

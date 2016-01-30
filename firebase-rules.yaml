@@ -36,14 +36,14 @@ schema:
       type: object
       $resident:
         type: object
-        constraint: isManager()
+        constraint: isManager() || isUser(root.residents.$resident.userId)
         properties:
           type: 
             type: string
             enum: [Owner, Renter]
           name: {type: string}
-          houseId: {type: string}
-          userId:  {type: string}
+          houseId: {type: string, constraint: isManager()}
+          userId:  {type: string, constraint: isManager()}
           phones:
             type: object
             $phone: {type: string}
