@@ -32,7 +32,11 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 	case TOGGLE_REGISTER:
 		return state.set('showRegister', !state.get('showRegister'))
 	case REGISTER_USER_START:
-		return state.set('isRegistering', true);
+		return state.withMutations(s => {
+			s.set('isRegistering', true)
+			 .set('registerError', null)
+			 .set('loginError', null)
+		})
 	case REGISTER_USER_SUCCESS:
 		return state.withMutations(s => {
 			s.set('isRegistering', false)
@@ -43,12 +47,16 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 	case REGISTER_USER_ERROR:
 		return state.withMutations(s => {
 			s.set('isRegistering', false)
-			 .set('registerError', action.payload.error)
+			 .set('registerError', action.payload)
 		})
 
 	//Login
 	case LOGIN_USER_START:
-		return state.set('isLoggingIn', true)
+		return state.withMutations(s => {
+			s.set('isLoggingIn', true)
+			 .set('loginError', null)
+			 .set('registerError', null)
+		})
 	case LOGIN_USER_SUCCESS:
 		return state.withMutations(s => {
 			s.set('isLoggingIn', false)
@@ -57,7 +65,7 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 	case LOGIN_USER_ERROR:
 		return state.withMutations(s => {
 			s.set('isLoggingIn', false)
-			 .set('loginError', action.payload.error)
+			 .set('loginError', action.payload)
 		})
 
 	case LOG_OUT_USER:

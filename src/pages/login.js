@@ -29,13 +29,16 @@ export default class Login extends Component {
                     <form onSubmit={this.handleSubmit}>
                         <Input type="text"
                             placeholder={'name@domain.com'}
-                            label={'Email Address'}
+                            label={'Email Address' + (this.props.loginError === 'INVALID_USER' ? ' - Not Found' 
+                                                                    : this.props.registerError === 'EMAIL_TAKEN' ? ' - Email Taken' : '')}
                             value={email}
+                            bsStyle={this.props.loginError === 'INVALID_USER' || this.props.registerError === 'EMAIL_TAKEN' ? 'error' : ''} hasFeedback
                             onChange={(e) => this.props.updateEmail(e.target.value)} />
                         <Input type="password"
                             placeholder={'password'}
-                            label={'Password'}
+                            label={'Password' + (this.props.loginError === 'INVALID_PASSWORD' ? ' - Invalid' : '')}
                             value={password}
+                            bsStyle={this.props.loginError === 'INVALID_PASSWORD' ? 'error' :''} hasFeedback
                             onChange={(e) => this.props.updatePassword(e.target.value)} />
                         {!showRegister ? null : 
                             <Input type="text"

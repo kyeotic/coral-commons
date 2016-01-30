@@ -37,8 +37,7 @@ export function registerUser(email, password, name) {
 			.then(response => 
 				dispatch(registerUserSuccess(email)))
 			.catch(error => {
-				console.error(error)
-				dispatch(registerUserError({email, error}))
+				dispatch(registerUserError(error.code))
 			})
 	}
 }
@@ -57,8 +56,10 @@ export function loginUser(email, password) {
 	return dispatch => {
 		dispatch(loginUserStart(email))
 		return Firebase.authWithPassword({email, password})
-			.then(auth => dispatch(loginUserSuccess({email, auth})))
-			.catch(error => dispatch(loginUserError(error)))
+			.then(auth => 
+				dispatch(loginUserSuccess({email, auth})))
+			.catch(error => 
+				dispatch(loginUserError(error.code)))
 	}
 }
 
@@ -71,3 +72,7 @@ export function logout() {
 	Firebase.unauth()
 	return logoutUser()
 }
+
+//Reset Password
+//
+//export const 
