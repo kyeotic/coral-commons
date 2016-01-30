@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { getAuth } from 'services/firebase'
+import { subscribeToFirebase } from 'services/firebase'
 
 import NavBar from 'components/navBar'
 import Login from 'pages/login'
@@ -10,7 +10,7 @@ import Login from 'pages/login'
 }))
 export default class App extends Component {
 	componentWillMount() {
-		getAuth(this.props.dispatch)
+		subscribeToFirebase(this.props.dispatch)
 	}
 	render() {
 		if (!this.props.isLoggedIn) 

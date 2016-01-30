@@ -1,6 +1,6 @@
 import Immutable from 'immutable'
 import { 
-	UPDATE_FORM_EMAIL, UPDATE_FORM_PASSWORD, UPDATE_FORM_NAME,
+	UPDATE_FORM_EMAIL, UPDATE_FORM_PASSWORD, UPDATE_FORM_NAME, UPDATE_USER_ID,
 	TOGGLE_REGISTER, REGISTER_USER_START, REGISTER_USER_SUCCESS, REGISTER_USER_ERROR,
 	LOGIN_USER_START, LOGIN_USER_SUCCESS, LOGIN_USER_ERROR, LOG_OUT_USER,
 	RESET_PASSWORD_START, RESET_PASSWORD_SUCCESS, RESET_PASSWORD_ERROR
@@ -8,6 +8,7 @@ import {
 import Firebase from 'services/firebase'
 
 let defaultState = { 
+	userId: null,
 	isLoggedIn: Firebase.getAuth() !== null,
 	isLoggingIn: false,
 	showRegister: false,
@@ -22,6 +23,10 @@ let defaultState = {
 
 export default function auth(state = Immutable.Map(defaultState), action) {
 	switch (action.type) {
+	//User Id
+	case UPDATE_USER_ID:
+		return state.set('userId', action.payload)
+
 	//Form
 	case UPDATE_FORM_EMAIL:
 	    return state.set('email', action.payload)

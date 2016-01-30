@@ -2,6 +2,11 @@ import action from './actionCreator'
 import Firebase from 'services/firebase'
 import http from 'services/http'
 
+//Auth Id
+//
+export const UPDATE_USER_ID = 'UPDATE_USER_ID'
+export const updateUserId = action(UPDATE_USER_ID)
+
 //Login Form
 //
 export const UPDATE_FORM_EMAIL  = 'UPDATE_FORM_EMAIL'
