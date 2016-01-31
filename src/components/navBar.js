@@ -29,6 +29,7 @@ export default class NavBar extends Component {
                 <Navbar.Collapse>
                     <Nav>
                         <NavLink href={'/'} label={'Residents'} />
+                        <NavLink href={'/houses'} label={'Houses'} />
                         <NavLink href={'/users'} label={'Users'} />
                     </Nav>
                     <Nav pullRight>

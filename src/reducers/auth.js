@@ -5,10 +5,12 @@ import {
 	LOGIN_USER_START, LOGIN_USER_SUCCESS, LOGIN_USER_ERROR, LOG_OUT_USER,
 	RESET_PASSWORD_START, RESET_PASSWORD_SUCCESS, RESET_PASSWORD_ERROR
 } from'actions/auth'
+import { USER_ADDED } from 'actions/users'
 import Firebase from 'services/firebase'
 
 let defaultState = { 
 	userId: null,
+	userRole: null,
 	isLoggedIn: Firebase.getAuth() !== null,
 	isLoggingIn: false,
 	showRegister: false,
@@ -26,6 +28,10 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 	//User Id
 	case UPDATE_USER_ID:
 		return state.set('userId', action.payload)
+	case USER_ADDED:
+		return action.payload.id === state.get('userId') ?
+			state.set('userRole', action.payload.value.role) :
+			state
 
 	//Form
 	case UPDATE_FORM_EMAIL:

@@ -6,12 +6,14 @@ import App from './app'
 import Users from 'pages/users'
 import Residents from 'pages/residents'
 import UserProfile from 'pages/userProfile'
+import Houses from 'pages/houses'
 
 const routes = (
 	<Router history={browserHistory}>
       <Route path="/" component={App}>
       	<IndexRoute component={Residents} />
       	<Route path="users" component={Users} />
+      	<Route path="houses" component={Houses} />
       	<Route path="profile" component={UserProfile} />
       </Route>
     </Router>
