@@ -4,7 +4,7 @@ import {
 	TOGGLE_REGISTER, REGISTER_USER_START, REGISTER_USER_SUCCESS, REGISTER_USER_ERROR,
 	LOGIN_USER_START, LOGIN_USER_SUCCESS, LOGIN_USER_ERROR, LOG_OUT_USER,
 	RESET_PASSWORD_START, RESET_PASSWORD_SUCCESS, RESET_PASSWORD_ERROR
-} from'actions/auth'
+} from'auth/actions'
 import { USER_ADDED } from 'actions/users'
 import Firebase from 'services/firebase'
 

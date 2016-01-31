@@ -4,16 +4,13 @@ import { Input, Panel, ButtonInput } from 'react-bootstrap'
 import { 
     updateEmail, updatePassword, updateName,
     toggleRegister, registerUser, loginUser, resetPassword
-} from 'actions/auth'
+} from 'auth/actions'
 
 @connect(state => {
     return state.auth.toJS()
 }, { updateEmail, updatePassword, updateName, toggleRegister, registerUser, loginUser, resetPassword } )
-export default class Login extends Component {
-    update = (newState) => {
-        console.log(newState)
-    }
-    handleSubmit = (e) => {
+export default class LoginForm extends Component {
+	handleSubmit = (e) => {
         e.preventDefault()
         if (this.props.showRegister)
             this.props.registerUser(this.props.email, this.props.password, this.props.name)
@@ -21,9 +18,9 @@ export default class Login extends Component {
             this.props.loginUser(this.props.email, this.props.password)
     }
 	render() {
-        const { email, password, name, showRegister, registering, authError, passwordReset } = this.props
-		return (
-            <div className={'login-container'}>
+		const { email, password, name, showRegister, registering, authError, passwordReset } = this.props
+		return(
+			<div className={'login-container'}>
                 <div className={'login-box container'}>
                     <Panel bsStyle="primary" header={<h2>Coral Commons Sign In</h2>}>
                     <form onSubmit={this.handleSubmit}>

@@ -23,7 +23,7 @@ export function startListeningToResidents(dispatch) {
 
 export function stopListeningToResidents() {
 	const residents = Firebase.child('residents')
-	residents.off(residentAdded)
-	residents.off(residentRemoved)
-	residents.off(residentUpdated)
+	residents.off(CHILD_ADDED, residentAdded)
+	residents.off(CHILD_REMOVED, residentRemoved)
+	residents.off(CHILD_CHANGED, residentUpdated)
 }

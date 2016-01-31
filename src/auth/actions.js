@@ -1,4 +1,4 @@
-import action from './actionCreator'
+import action from 'actions/actionCreator'
 import Firebase from 'services/firebase'
 import http from 'services/http'
 

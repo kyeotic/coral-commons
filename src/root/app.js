@@ -2,8 +2,8 @@ import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { subscribeToFirebase } from 'services/firebase'
 
-import NavBar from 'components/navBar'
-import Login from 'pages/login'
+import NavBar from 'navigation/navBar'
+import LoginForm from 'auth/loginForm'
 
 @connect(state => ({
 	isLoggedIn: state.auth.get('isLoggedIn')	
@@ -14,7 +14,7 @@ export default class App extends Component {
 	}
 	render() {
 		if (!this.props.isLoggedIn) 
-			return <Login />
+			return <LoginForm />
 
 		return (
 			<div className={"container"}>

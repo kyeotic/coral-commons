@@ -1,5 +1,5 @@
 import Firebase from 'firebase'
-import { updateEmail, updateUserId } from 'actions/auth'
+import { updateEmail, updateUserId } from 'auth/actions'
 import {startListeningToUsers, stopListeningToUsers} from 'actions/users'
 import {startListeningToResidents, stopListeningToResidents} from 'actions/residents'
 

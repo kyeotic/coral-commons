@@ -23,7 +23,7 @@ export function startListeningToHouses(dispatch) {
 
 export function stopListeningToHouses() {
 	const houses = Firebase.child('houses')
-	houses.off(houseAdded)
-	houses.off(houseRemoved)
-	houses.off(houseUpdated)
+	houses.off(HOUSE_ADDED, houseAdded)
+	houses.off(HOUSE_REMOVED, houseRemoved)
+	houses.off(HOUSE_UPDATED, houseUpdated)
 }

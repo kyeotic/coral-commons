@@ -23,7 +23,7 @@ export function startListeningToUsers(dispatch) {
 
 export function stopListeningToUsers() {
 	const users = Firebase.child('users')
-	users.off(userAdded)
-	users.off(userRemoved)
-	users.off(userUpdated)
+	users.off(CHILD_ADDED, userAdded)
+	users.off(CHILD_REMOVED, userRemoved)
+	users.off(CHILD_CHANGED, userUpdated)
 }

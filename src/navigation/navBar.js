@@ -2,10 +2,11 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { Navbar, Nav, MenuItem, NavDropdown, Glyphicon, Button} from 'react-bootstrap';
 import { Link } from 'react-router';
-import NavLink from 'components/navLink';
 
-import { logout } from 'actions/auth'
-import { toggleCollapse } from 'actions/navigation'
+import NavLink from 'navigation/navLink';
+
+import { logout } from 'auth/actions'
+import { toggleCollapse } from 'navigation/actions'
 
 @connect(state => ({
     userEmail: state.auth.get('email'),
