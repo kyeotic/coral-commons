@@ -1,5 +1,5 @@
-import action from './actionCreator'
-import Firebase, {CHILD_ADDED, CHILD_REMOVED, CHILD_CHANGED } from 'services/firebase'
+import action from 'util/actionCreator'
+import Firebase, {CHILD_ADDED, CHILD_REMOVED, CHILD_CHANGED } from 'util/firebase'
 
 
 export const USER_ADDED = 'USER_ADDED'

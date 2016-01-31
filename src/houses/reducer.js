@@ -1,8 +1,8 @@
 import Immutable from 'immutable'
 import { 
 	HOUSE_ADDED, HOUSE_REMOVED, HOUSE_UPDATED
-} from'actions/houses'
-import Firebase from 'services/firebase'
+} from 'houses/actions'
+import Firebase from 'util/firebase'
 
 export default function houses(state = Immutable.Map({}), action) {
 	switch (action.type) {

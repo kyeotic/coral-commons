@@ -1,7 +1,7 @@
 import Firebase from 'firebase'
 import { updateEmail, updateUserId } from 'auth/actions'
-import {startListeningToUsers, stopListeningToUsers} from 'actions/users'
-import {startListeningToResidents, stopListeningToResidents} from 'actions/residents'
+import {startListeningToUsers, stopListeningToUsers} from 'users/actions'
+import {startListeningToResidents, stopListeningToResidents} from 'residents/actions'
 
 export const CHILD_ADDED = 'child_added'
 export const CHILD_REMOVED = 'child_removed'

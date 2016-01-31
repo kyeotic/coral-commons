@@ -1,8 +1,8 @@
 import Immutable from 'immutable'
 import { 
 	RESIDENT_ADDED, RESIDENT_REMOVED, RESIDENT_UPDATED
-} from'actions/residents'
-import Firebase from 'services/firebase'
+} from'residents/actions'
+import Firebase from 'util/firebase'
 
 export default function residents(state = Immutable.Map({}), action) {
 	switch (action.type) {

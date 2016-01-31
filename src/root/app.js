@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { subscribeToFirebase } from 'services/firebase'
+import { subscribeToFirebase } from 'util/firebase'
 
 import NavBar from 'navigation/navBar'
 import LoginForm from 'auth/loginForm'

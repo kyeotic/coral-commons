@@ -1,8 +1,8 @@
 import Immutable from 'immutable'
 import { 
 	USER_ADDED, USER_REMOVED, USER_UPDATED
-} from'actions/users'
-import Firebase from 'services/firebase'
+} from'users/actions'
+import Firebase from 'util/firebase'
 
 export default function users(state = Immutable.Map({}), action) {
 	switch (action.type) {

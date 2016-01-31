@@ -1,4 +1,4 @@
-import action from 'actions/actionCreator'
+import action from 'util/actionCreator'
 
 //Toggle Collapse
 export const NAV_TOGGLE_COLLAPSE  = 'NAV_TOGGLE_COLLAPSE'
