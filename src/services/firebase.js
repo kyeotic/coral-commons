@@ -9,8 +9,6 @@ export const CHILD_CHANGED = 'child_changed'
 
 const rootFirebase = new Firebase("https://coral-commons-dev.firebaseio.com")
 
-//rootFirebase.unauth()
-
 export default rootFirebase
 
 export function subscribeToFirebase(dispatch) {
@@ -29,9 +27,3 @@ export function subscribeToFirebase(dispatch) {
 		startListeningToResidents(dispatch)
 	})
 }
-
-
-
-/*rootFirebase.child('users').on('value', function(users) {
-	console.log('user loaded', users.val())
-}, error => console.error('user error', error))*/

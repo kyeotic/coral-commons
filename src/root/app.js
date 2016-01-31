@@ -19,7 +19,6 @@ export default class App extends Component {
 		return (
 			<div className={"container"}>
 				<NavBar />
-				App
 				{this.props.children}
 			</div>
 		)

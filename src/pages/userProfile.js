@@ -7,11 +7,18 @@ import { connect } from 'react-redux';
 }))
 export default class UserProfile extends Component {
 	render() {
+		let user = this.props.user;
+
+		//User loads async, so just wait for it
+		if (!user )return null;
+
 		return (
 			<div>
-				{this.props.email}
-				{this.props.user.name}
+				<p>{this.props.email} </p>
+				<p>{user.name}</p>
+				<p>{user.role}</p>
 			</div>
 		);
 	}
 }
+//
