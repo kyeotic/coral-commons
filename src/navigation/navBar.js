@@ -35,7 +35,7 @@ export default class NavBar extends Component {
                     </Nav>
                     <Nav pullRight>
                         <NavDropdown title={this.props.userEmail}>
-                            <MenuItem><NavLink href={'/profile'} label={'Profile'} /></MenuItem>
+                            <MenuItem><NavLink href={'/profile'} label={<span><Glyphicon glyph={'user'}/>Profile</span>} /></MenuItem>
                             <MenuItem divider />
                             <MenuItem onClick={this.props.logout}><Glyphicon glyph={'log-out'}/> Log Out</MenuItem>
                         </NavDropdown>

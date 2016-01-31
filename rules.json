@@ -28,7 +28,7 @@
       "$house": {
         ".write":"false",
         ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
-        "house": {
+        "number": {
           ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isNumber()))))",
           ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
         },

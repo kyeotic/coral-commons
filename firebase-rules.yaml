@@ -27,7 +27,7 @@ schema:
       type: object
       constraint: isManager()
       properties:
-        house: {type: number}
+        number: {type: number}
         garage: {type: string}
         residents: 
           type: object
