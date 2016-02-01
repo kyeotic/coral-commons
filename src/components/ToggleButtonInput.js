@@ -3,7 +3,8 @@ import { Input, Glyphicon, Button } from 'react-bootstrap'
 
 export default class ToggleButtonInput extends Component {
 	static PropTypes = {
-		onSubmit: PropTypes.func.isRequired
+		onSubmit: PropTypes.func.isRequired,
+		placeholder: PropTypes.string.isRequired
 	}
 	constructor(...props) {
 		super(...props)

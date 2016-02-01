@@ -21,7 +21,8 @@ export default class Houses extends Component {
 				<div className={"page-header"}>
 					<h1>Houses
 					<div className="pull-right">
-						<ToggleButtonInput onSubmit={(number) => createHouse({number})} />
+						<ToggleButtonInput onSubmit={(number) => createHouse({number})}
+										placeholder="House Number" />
 					</div>
 					</h1>
 				</div>
