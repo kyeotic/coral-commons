@@ -528,5 +528,6 @@
     "process": "github:jspm/nodelibs-process@^0.1.0"
   },
   "npm:alertify.js@1.0.8": {},
-  "npm:sleep-promise@1.0.0": {}
+  "npm:sleep-promise@1.0.0": {},
+  "npm:phone-formatter@0.0.2": {}
 }

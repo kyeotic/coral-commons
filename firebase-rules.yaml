@@ -1,5 +1,5 @@
 functions:
-  - isUser(user): auth.uid !== null && auth.uid === user
+  - isUser(userId): auth.uid !== null && auth.uid === userId
   - hasRole(roleName): root.users[auth.uid].role === roleName
   - isBoardMember(): hasRole('Board Member')
   - isAdmin(): hasRole('Admin')
@@ -18,7 +18,7 @@ schema:
           role:
             type: string
             enum: [Admin, Board Member, Verified, Unverified]
-            constraint: isManager() && next !== 'Admin'
+            constraint: (isManager() && next !== 'Admin') || isAdmin()
           name: { type: string }
           residentId: { type: string, constraint: isManager() }
     houses:

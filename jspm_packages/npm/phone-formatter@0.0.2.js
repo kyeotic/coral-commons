@@ -1,0 +1,1 @@
+module.exports = require("npm:phone-formatter@0.0.2/index.js");

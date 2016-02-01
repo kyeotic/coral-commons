@@ -6,14 +6,15 @@ import ToggleButtonInput from 'components/toggleButtonInput'
 import mapToKeyedList from 'util/mapToKeyedList'
 import residents from 'residents/actions'
 
-@connect(state => ({
-	residents: mapToKeyedList(state.residents.get('items').toJS())
+@connect(state => {
+	let residents = mapToKeyedList(state.residents.get('items').toJS())
 				.map(resident => {
 					if (resident.houseId)
-						resident.house = state.houses.get(resident.houseId).toJS()
+						resident.house = state.houses.get('items').toJS()[resident.houseId]
 					return resident
 				})
-}), { createResident: residents.push, removeResident: residents.remove })
+	return {residents}
+}, { createResident: residents.push, removeResident: residents.remove })
 export default class Residents extends Component {
 	render() {
 		let { createResident, removeResident } = this.props

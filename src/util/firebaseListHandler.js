@@ -79,7 +79,7 @@ export default class FirebaseListHandler {
 					toast.success(`${this.singularName} removed successfully`)
 					dispatch(autoAction(this.REMOVE_SUCCESS, id))
 				}).catch(error => {
-					toast.error(`An error occured removed the ${this.singularName}: ${error.code}`)
+					toast.error(`An error occured removing the ${this.singularName}: ${error.code}`)
 					dispatch(autoAction(this.REMOVE_ERROR, Object.assign(toSave, {error})))
 				})
 		}
@@ -95,16 +95,14 @@ export default class FirebaseListHandler {
 					toast.success(`${this.singularName} updated successfully`)
 					dispatch(autoAction(this.UPDATE_SUCCESS, child))
 				}).catch(error => {
-					toast.error(`An error occured removed the ${this.singularName}: ${error.code}`)
+					toast.error(`An error occured updating the ${this.singularName}: ${error.code}`)
 					dispatch(autoAction(this.UPDATE_ERROR, Object.assign(child, {error})))
 				})
 		}
 	}
 
-	remapChild = (childId, newParentId, oldParentId) => {
-		return dispatch => {
-			
-		}
+	generateChildId = () => {
+		return this.ref.child('id').push().key()
 	}
 
 	get reducer() {
