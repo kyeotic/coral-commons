@@ -1,17 +1,13 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonGroup  } from 'react-bootstrap'
-
-import houseHandler from 'houses/actions'
 import ToggleButtonInput from 'components/toggleButtonInput'
-
-function transformMapToKeyedList(obj) {
-	return Object.keys(obj).map(key => Object.assign({id:key}, obj[key]))
-}
+import mapToKeyedList from 'util/mapToKeyedList'
+import houses from 'houses/actions'
 
 @connect(state => ({
-	houses: transformMapToKeyedList(state.houses.get('items').toJS())
-}), { createHouse: houseHandler.push, removeHouse: houseHandler.remove })
+	houses: mapToKeyedList(state.houses.get('items').toJS())
+}), { createHouse: houses.push, removeHouse: houses.remove })
 export default class Houses extends Component {
 	render() {
 		let { createHouse, removeHouse } = this.props

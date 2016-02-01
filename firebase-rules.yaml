@@ -41,7 +41,7 @@ schema:
           type: 
             type: string
             enum: [Owner, Renter]
-          name: {type: string}
+          fullName: {type: string}
           houseId: {type: string, constraint: isManager()}
           userId:  {type: string, constraint: isManager()}
           phones:
