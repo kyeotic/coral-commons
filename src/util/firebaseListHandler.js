@@ -1,32 +1,33 @@
 import action, {autoAction} from 'util/actionCreator'
 import Firebase, {CHILD_ADDED, CHILD_REMOVED, CHILD_CHANGED } from 'util/firebase'
 import toast from 'util/toast'
+import Immutable from 'immutable'
 
-class FirebaseListHandler {
+export default class FirebaseListHandler {
 	constructor(firebaseRef, config = {}) {
 		this.ref = firebaseRef
 
 		//Firebase subscriptions
-		this.ADDED = new Symbol('ADDED')
-		this.REMOVED = new Symbol('REMOVED')
-		this.UPDATED = new Symbol('UPDATED')
+		this.ADDED = Symbol('ADDED')
+		this.REMOVED = Symbol('REMOVED')
+		this.UPDATED = Symbol('UPDATED')
 		this.childAdded = action(this.ADDED)
 		this.childRemoved = action(this.REMOVED)
 		this.childUpdated = action(this.UPDATED)
 
 		//Actions
 		//
-		this.CREATE_START = new Symbol('CREATE_START')
-		this.CREATE_SUCCESS = new Symbol('CREATE_SUCCESS')
-		this.CREATE_ERROR = new Symbol('CREATE_ERROR')
+		this.CREATE_START = Symbol('CREATE_START')
+		this.CREATE_SUCCESS = Symbol('CREATE_SUCCESS')
+		this.CREATE_ERROR = Symbol('CREATE_ERROR')
 
-		this.REMOVE_START = new Symbol('REMOVE_START')
-		this.REMOVE_SUCCESS = new Symbol('REMOVE_SUCCESS')
-		this.REMOVE_ERROR = new Symbol('REMOVE_ERROR')
+		this.REMOVE_START = Symbol('REMOVE_START')
+		this.REMOVE_SUCCESS = Symbol('REMOVE_SUCCESS')
+		this.REMOVE_ERROR = Symbol('REMOVE_ERROR')
 
-		this.UPDATE_START = new Symbol('UPDATE_START')
-		this.UPDATE_SUCCESS = new Symbol('UPDATE_SUCCESS')
-		this.UPDATE_ERROR = new Symbol('UPDATE_ERROR')
+		this.UPDATE_START = Symbol('UPDATE_START')
+		this.UPDATE_SUCCESS = Symbol('UPDATE_SUCCESS')
+		this.UPDATE_ERROR = Symbol('UPDATE_ERROR')
 
 		//Messages
 		//
@@ -34,7 +35,7 @@ class FirebaseListHandler {
 		this.pluralName = config.pluralName || this.singularName + 's'
 	}
 
-	startListening(dispatch) {
+	startListening = (dispatch) => {
 		this.ref.on(CHILD_ADDED, snapshot => 
 			dispatch(this.childAdded({id: snapshot.key(), value: snapshot.val()})))
 		this.ref.on(CHILD_REMOVED, snapshot => 
@@ -43,13 +44,13 @@ class FirebaseListHandler {
 			dispatch(this.childUpdated({id: snapshot.key(), value: snapshot.val()})))
 	}
 
-	stopListening() {
+	stopListening = () => {
 		this.ref.off(CHILD_ADDED, this.childAdded)
 		this.ref.off(CHILD_REMOVED, this.childRemoved)
 		this.ref.off(CHILD_CHANGED, this.childUpdated)
 	}
 
-	push(child) {
+	push = (child) => {
 		let newChild = this.ref.push()
 		return dispatch =>  {
 			let toSave ={id: newChild.key(), value: child}
@@ -65,7 +66,7 @@ class FirebaseListHandler {
 		}
 	}
 
-	remove(id) {
+	remove = (id) => {
 		const child = this.ref.child(id)
 		return dispatch => {
 			dispatch(autoAction(this.REMOVE_START, id))
@@ -80,7 +81,7 @@ class FirebaseListHandler {
 		}
 	}
 
-	update(child) {
+	update = (child) => {
 		return dispatch => {		
 			dispatch(autoAction(this.UPDATE_START, house))
 			let toSave = Object.assign({}, house)
@@ -167,6 +168,6 @@ class FirebaseListHandler {
 			default:
 				return state
 			}
-		}
+		}.bind(this)
 	}
 }

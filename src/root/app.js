@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 import { subscribeToFirebase } from 'util/firebase'
+import houseHandler from 'houses/actions'
 
 import NavBar from 'navigation/navBar'
 import LoginForm from 'auth/loginForm'
@@ -10,7 +11,9 @@ import LoginForm from 'auth/loginForm'
 }))
 export default class App extends Component {
 	componentWillMount() {
-		subscribeToFirebase(this.props.dispatch)
+		subscribeToFirebase(this.props.dispatch, [
+			houseHandler
+		])
 	}
 	render() {
 		if (!this.props.isLoggedIn) 

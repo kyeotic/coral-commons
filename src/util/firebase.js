@@ -2,7 +2,6 @@ import Firebase from 'firebase'
 import { updateEmail, updateUserId } from 'auth/actions'
 import {startListeningToUsers, stopListeningToUsers} from 'users/actions'
 import {startListeningToResidents, stopListeningToResidents} from 'residents/actions'
-import {startListeningToHouses, stopListeningToHouses} from 'houses/actions'
 
 export const CHILD_ADDED = 'child_added'
 export const CHILD_REMOVED = 'child_removed'
@@ -12,14 +11,15 @@ const rootFirebase = new Firebase("https://coral-commons-dev.firebaseio.com")
 
 export default rootFirebase
 
-export function subscribeToFirebase(dispatch) {
+export function subscribeToFirebase(dispatch, handlers = []) {
 	rootFirebase.onAuth(auth => {
 		if (!auth) {
 			dispatch(updateUserId(null))
 
 			stopListeningToResidents()
 			stopListeningToUsers()
-			stopListeningToHouses()
+			handlers.forEach(handler => handler.stopListening())
+
 			return
 		}
 		dispatch(updateUserId(auth.uid))
@@ -27,6 +27,6 @@ export function subscribeToFirebase(dispatch) {
 
 		startListeningToUsers(dispatch)
 		startListeningToResidents(dispatch)
-		startListeningToHouses(dispatch)
+		handlers.forEach(handler => handler.startListening(dispatch))
 	})
 }
