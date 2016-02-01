@@ -31,7 +31,7 @@ schema:
         garage: {type: string}
         residents: 
           type: object
-          ~$resident: {type: string}
+          ~$resident: {type: boolean}
     residents:
       type: object
       $resident:

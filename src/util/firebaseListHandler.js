@@ -85,18 +85,18 @@ export default class FirebaseListHandler {
 		}
 	}
 
-	update = (child) => {
+	update = (child, id) => {
 		return dispatch => {		
-			dispatch(autoAction(this.UPDATE_START, house))
-			let toSave = Object.assign({}, house)
+			dispatch(autoAction(this.UPDATE_START, child))
+			let toSave = Object.assign({}, child)
 			delete toSave.id
-			Firebase.child('houses').child(house.id).set(toSave)
+			this.ref.child(id || child.id).set(toSave)
 				.then(() => {
 					toast.success(`${this.singularName} updated successfully`)
-					dispatch(autoAction(this.UPDATE_SUCCESS, house))
+					dispatch(autoAction(this.UPDATE_SUCCESS, child))
 				}).catch(error => {
 					toast.error(`An error occured removed the ${this.singularName}: ${error.code}`)
-					dispatch(autoAction(this.UPDATE_ERROR, Object.assign(house, {error})))
+					dispatch(autoAction(this.UPDATE_ERROR, Object.assign(child, {error})))
 				})
 		}
 	}
