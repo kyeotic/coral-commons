@@ -1,3 +1,3 @@
-import houseHandler from 'houses/actions'
+import handler from 'houses/actions'
 
-export default houseHandler.reducer
+export default handler.reducer

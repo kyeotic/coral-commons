@@ -1,7 +1,5 @@
 import Firebase from 'firebase'
 import { updateEmail, updateUserId } from 'auth/actions'
-import {startListeningToUsers, stopListeningToUsers} from 'users/actions'
-import {startListeningToResidents, stopListeningToResidents} from 'residents/actions'
 
 export const CHILD_ADDED = 'child_added'
 export const CHILD_REMOVED = 'child_removed'
@@ -15,18 +13,11 @@ export function subscribeToFirebase(dispatch, handlers = []) {
 	rootFirebase.onAuth(auth => {
 		if (!auth) {
 			dispatch(updateUserId(null))
-
-			stopListeningToResidents()
-			stopListeningToUsers()
 			handlers.forEach(handler => handler.stopListening())
-
 			return
 		}
 		dispatch(updateUserId(auth.uid))
 		dispatch(updateEmail(auth.password.email))
-
-		startListeningToUsers(dispatch)
-		startListeningToResidents(dispatch)
 		handlers.forEach(handler => handler.startListening(dispatch))
 	})
 }
