@@ -119,6 +119,8 @@ export default class Resident extends Component {
 		let phones = mapToKeyedList(resident.phones)
 		let emails = mapToKeyedList(resident.emails)
 
+		let residentTypes = ['Owner', 'Renter']
+
 		return (
 			<div>
 				<div className={"page-header"}>
@@ -144,6 +146,19 @@ export default class Resident extends Component {
 									<option value={''}>Select a house</option>
 								{houses.map(house => {
 									return <option value={house.id}>{house.number}</option>
+								})}
+							</Input>
+						</Col>
+					</Row>
+					<Row>
+						<Col sm={5}>
+							<Input type="select"
+									value={resident.type || ''}
+									label="Type"
+									onChange={e =>  update(Object.assign({}, resident, {type: e.target.value}))}>
+									{resident.type ? null : <option value={''}>Select a type</option>}
+								{residentTypes.map(type => {
+									return <option value={type}>{type}</option>
 								})}
 							</Input>
 						</Col>
