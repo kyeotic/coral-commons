@@ -101,6 +101,12 @@ export default class FirebaseListHandler {
 		}
 	}
 
+	remapChild = (childId, newParentId, oldParentId) => {
+		return dispatch => {
+			
+		}
+	}
+
 	get reducer() {
 		let defaultState = {
 			items: Immutable.Map(),
