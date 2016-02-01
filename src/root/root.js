@@ -2,16 +2,20 @@ import React, { Component, PropTypes } from 'react'
 import { Provider } from 'react-redux'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-import App from './app'
+import App from 'root/app'
+import Bulletins from 'pages/bulletins'
 import Users from 'pages/users'
 import Residents from 'pages/residents'
+import Resident from 'pages/resident'
 import UserProfile from 'pages/userProfile'
 import Houses from 'pages/houses'
 
 const routes = (
 	<Router history={browserHistory}>
       <Route path="/" component={App}>
-      	<IndexRoute component={Residents} />
+      	<IndexRoute component={Bulletins} />
+      	<Route path="residents" component={Residents} />
+      	<Route path="residents/:id" component={Resident} />
       	<Route path="users" component={Users} />
       	<Route path="houses" component={Houses} />
       	<Route path="profile" component={UserProfile} />
@@ -29,7 +33,7 @@ export default class Root extends Component {
 		const { store } = this.props
 		return (
 			<Provider store={store}>
-				{ routes}
+				{ routes }
 			</Provider>
 		)
 	}

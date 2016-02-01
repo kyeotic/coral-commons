@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonGroup  } from 'react-bootstrap'
+import { Link } from 'react-router';
+import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonToolbar  } from 'react-bootstrap'
 import ToggleButtonInput from 'components/toggleButtonInput'
 import mapToKeyedList from 'util/mapToKeyedList'
 import residents from 'residents/actions'
@@ -41,12 +42,15 @@ export default class Residents extends Component {
 							<td>{resident.fullName}</td>
 							<td>{resident.house ? resident.house.number : null}</td>
 							<td>
-								<ButtonGroup className="pull-right">
+								<ButtonToolbar className="pull-right">
+									<Link className={'btn btn-default btn-sm'} to={'/residents/' + resident.id}>
+										<Glyphicon glyph="edit" />
+									</Link>
 									<Button bsStyle="danger" bsSize="small"
 										onClick={() => removeResident(resident.id)}>
 										<Glyphicon glyph="remove" />
 									</Button>
-								</ButtonGroup>
+								</ButtonToolbar>
 							</td>
 						</tr>)
 						})}
