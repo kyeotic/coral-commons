@@ -1,7 +1,6 @@
 import action from 'util/actionCreator'
 import Firebase, {CHILD_ADDED, CHILD_REMOVED, CHILD_CHANGED } from 'util/firebase'
 
-
 export const HOUSE_ADDED = 'HOUSE_ADDED'
 export const HOUSE_REMOVED = 'HOUSE_REMOVED'
 export const HOUSE_UPDATED = 'HOUSE_UPDATED'
@@ -49,4 +48,3 @@ export function createHouse(house) {
 
 	}
 }
-

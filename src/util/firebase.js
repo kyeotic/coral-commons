@@ -2,6 +2,7 @@ import Firebase from 'firebase'
 import { updateEmail, updateUserId } from 'auth/actions'
 import {startListeningToUsers, stopListeningToUsers} from 'users/actions'
 import {startListeningToResidents, stopListeningToResidents} from 'residents/actions'
+import {startListeningToHouses, stopListeningToHouses} from 'houses/actions'
 
 export const CHILD_ADDED = 'child_added'
 export const CHILD_REMOVED = 'child_removed'
@@ -18,6 +19,7 @@ export function subscribeToFirebase(dispatch) {
 
 			stopListeningToResidents()
 			stopListeningToUsers()
+			stopListeningToHouses()
 			return
 		}
 		dispatch(updateUserId(auth.uid))
@@ -25,5 +27,6 @@ export function subscribeToFirebase(dispatch) {
 
 		startListeningToUsers(dispatch)
 		startListeningToResidents(dispatch)
+		startListeningToHouses(dispatch)
 	})
 }

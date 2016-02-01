@@ -27,11 +27,11 @@ schema:
       type: object
       constraint: isManager()
       properties:
-        number: {type: number}
+        number: {type: string}
         garage: {type: string}
         residents: 
           type: object
-          $resident: {type: string}
+          ~$resident: {type: string}
     residents:
       type: object
       $resident:
@@ -46,10 +46,10 @@ schema:
           userId:  {type: string, constraint: isManager()}
           phones:
             type: object
-            $phone: {type: string}
+            ~$phone: {type: string}
           emails:
             type: object
-            $email: {type: string}
+            ~$email: {type: string}
 
 access:
   - location: /
