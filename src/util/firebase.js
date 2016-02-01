@@ -1,10 +1,6 @@
 import Firebase from 'firebase'
 import { updateEmail, updateUserId } from 'auth/actions'
 
-export const CHILD_ADDED = 'child_added'
-export const CHILD_REMOVED = 'child_removed'
-export const CHILD_CHANGED = 'child_changed'
-
 const rootFirebase = new Firebase("https://coral-commons-dev.firebaseio.com")
 
 export default rootFirebase

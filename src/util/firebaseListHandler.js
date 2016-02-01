@@ -1,7 +1,11 @@
 import action, {autoAction} from 'util/actionCreator'
-import Firebase, {CHILD_ADDED, CHILD_REMOVED, CHILD_CHANGED } from 'util/firebase'
+import Firebase from 'util/firebase'
 import toast from 'util/toast'
 import Immutable from 'immutable'
+
+const CHILD_ADDED = 'child_added'
+const CHILD_REMOVED = 'child_removed'
+const CHILD_CHANGED = 'child_changed'
 
 export default class FirebaseListHandler {
 	constructor(firebaseRef, config = {}) {
