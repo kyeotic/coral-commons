@@ -526,5 +526,7 @@
   "npm:pako@0.2.8": {
     "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
     "process": "github:jspm/nodelibs-process@^0.1.0"
-  }
+  },
+  "npm:alertify.js@1.0.8": {},
+  "npm:sleep-promise@1.0.0": {}
 }

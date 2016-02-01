@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid } from 'react-bootstrap'
+import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonGroup  } from 'react-bootstrap'
 
-import { createHouse, toggleCreateHouse } from 'houses/actions'
+import { createHouse, toggleCreateHouse, removeHouse } from 'houses/actions'
 import ToggleButtonInput from 'components/toggleButtonInput'
 
 function transformMapToKeyedList(obj) {
@@ -11,10 +11,10 @@ function transformMapToKeyedList(obj) {
 
 @connect(state => ({
 	houses: transformMapToKeyedList(state.houses.get('items').toJS())
-}), { createHouse, toggleCreateHouse })
+}), { createHouse, toggleCreateHouse, removeHouse })
 export default class Houses extends Component {
 	render() {
-		let { createHouse } = this.props
+		let { createHouse, removeHouse } = this.props
 		let houses = this.props.houses
 		return (
 			<div>
@@ -40,7 +40,12 @@ export default class Houses extends Component {
 							<td>{house.number}</td>
 							<td>{house.garage}</td>
 							<td>
-								Temp
+								<ButtonGroup className="pull-right">
+									<Button bsStyle="danger" bsSize="small"
+										onClick={() => removeHouse(house.id)}>
+										<Glyphicon glyph="remove" />
+									</Button>
+								</ButtonGroup>
 							</td>
 						</tr>)
 						})}

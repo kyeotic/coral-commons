@@ -1,10 +1,9 @@
-import action from 'util/actionCreator'
+import action, {autoAction} from 'util/actionCreator'
 import Firebase, {CHILD_ADDED, CHILD_REMOVED, CHILD_CHANGED } from 'util/firebase'
-
-//This is not yet ready for use
+import toast from 'util/toast'
 
 class FirebaseListHandler {
-	constructor(firebaseRef) {
+	constructor(firebaseRef, config = {}) {
 		this.ref = firebaseRef
 
 		//Firebase subscriptions
@@ -16,12 +15,23 @@ class FirebaseListHandler {
 		this.childUpdated = action(this.UPDATED)
 
 		//Actions
+		//
 		this.CREATE_START = new Symbol('CREATE_START')
 		this.CREATE_SUCCESS = new Symbol('CREATE_SUCCESS')
 		this.CREATE_ERROR = new Symbol('CREATE_ERROR')
-		this.createStart = action(this.CREATE_START)
-		this.createSuccess = action(this.CREATE_SUCCESS)
-		this.createError = action(this.CREATE_ERROR)
+
+		this.REMOVE_START = new Symbol('REMOVE_START')
+		this.REMOVE_SUCCESS = new Symbol('REMOVE_SUCCESS')
+		this.REMOVE_ERROR = new Symbol('REMOVE_ERROR')
+
+		this.UPDATE_START = new Symbol('UPDATE_START')
+		this.UPDATE_SUCCESS = new Symbol('UPDATE_SUCCESS')
+		this.UPDATE_ERROR = new Symbol('UPDATE_ERROR')
+
+		//Messages
+		//
+		this.singularName = config.name
+		this.pluralName = config.pluralName || this.singularName + 's'
 	}
 
 	startListening(dispatch) {
@@ -39,16 +49,124 @@ class FirebaseListHandler {
 		this.ref.off(CHILD_CHANGED, this.childUpdated)
 	}
 
-	createChild(child) {
+	push(child) {
 		let newChild = this.ref.push()
 		return dispatch =>  {
 			let toSave ={id: newChild.key(), value: child}
-			dispatch(this.createStart(toSave))
+			dispatch(autoAction(this.CREATE_START, toSave))
 			return newChild.set(child)
-				.then(() 
-					=> dispatch(this.createSuccess(toSave)))
-				.catch(error =>
-					dispatch(this.createError(Object.assign(toSave, {error}))))
+				.then(() => {
+					toast.success(`${this.singularName} created successfully`)
+					dispatch(autoAction(this.CREATE_SUCCESS, toSave))
+				}).catch(error => {
+					toast.error(`An error occured creating the ${this.singularName}: ${error.code}`)
+					dispatch(autoAction(this.CREATE_ERROR, Object.assign(toSave, {error})))
+				})
+		}
+	}
+
+	remove(id) {
+		const child = this.ref.child(id)
+		return dispatch => {
+			dispatch(autoAction(this.REMOVE_START, id))
+			child.remove()
+				.then(() => {
+					toast.success(`${this.singularName} removed successfully`)
+					dispatch(autoAction(this.REMOVE_SUCCESS, id))
+				}).catch(error => {
+					toast.error(`An error occured removed the ${this.singularName}: ${error.code}`)
+					dispatch(autoAction(this.REMOVE_ERROR, Object.assign(toSave, {error})))
+				})
+		}
+	}
+
+	update(child) {
+		return dispatch => {		
+			dispatch(autoAction(this.UPDATE_START, house))
+			let toSave = Object.assign({}, house)
+			delete toSave.id
+			Firebase.child('houses').child(house.id).set(toSave)
+				.then(() => {
+					toast.success(`${this.singularName} updated successfully`)
+					dispatch(autoAction(this.UPDATE_SUCCESS, house))
+				}).catch(error => {
+					toast.error(`An error occured removed the ${this.singularName}: ${error.code}`)
+					dispatch(autoAction(this.UPDATE_ERROR, Object.assign(house, {error})))
+				})
+		}
+	}
+
+	get reducer() {
+		let defaultState = {
+			items: Immutable.Map(),
+
+			isCreating: false,
+			createError: null,
+
+			isRemoving: false,
+			removeError: null,
+
+			isUpdating: false,
+			updateError: null
+		}
+
+		return function reducer(state = Immutable.Map(defaultState), action) {
+			switch (action.type) {
+
+			case this.ADDED:
+			case this.UPDATED:
+				return state.setIn(['items', action.payload.id], action.payload.value)
+			case this.REMOVED:
+				return state.deleteIn(['items', action.payload.id])
+
+			case this.CREATE_START:
+				return state.withMutations(s => {
+					s.set('isCreating', true)
+					 .set('createError', null)
+				})
+			case this.CREATE_SUCCESS:
+				return state.withMutations(s => {
+					s.set('isCreating', false)
+				})
+			case this.CREATE_ERROR:
+				return state.withMutations(s => {
+					s.set('isCreating', false)
+					 .set('createError', action.payload)
+				})
+
+			case this.REMOVE_START:
+				return state.withMutations(s => {
+					s.set('isRemoving', true)
+					 .set('removeError', null)
+				})
+			case this.REMOVE_SUCCESS:
+				return state.withMutations(s => {
+					s.set('isRemoving', false)
+				})
+			case this.REMOVE_ERROR:
+				return state.withMutations(s => {
+					s.set('isRemoving', false)
+					 .set('removeError', action.payload)
+				})
+
+			case this.UPDATE_START:
+				return state.withMutations(s => {
+					s.set('isUpdating', true)
+					 .set('updateError', null)
+				})
+			case this.UPDATE_SUCCESS:
+				return state.withMutations(s => {
+					s.set('isUpdating', false)
+				})
+			case this.UPDATE_ERROR:
+				return state.withMutations(s => {
+					s.set('isUpdating', false)
+					 .set('updateError', action.payload)
+				})
+
+			default:
+				return state
+			}
 		}
 	}
 }

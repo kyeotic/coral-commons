@@ -17,6 +17,7 @@
   "jspm": {
     "configFile": "jspm.config.js",
     "dependencies": {
+      "alertify.js": "npm:alertify.js@^1.0.8",
       "axios": "npm:axios@^0.9.1",
       "firebase": "npm:firebase@^2.4.0",
       "immutable": "npm:immutable@^3.7.6",
@@ -28,7 +29,8 @@
       "react-router-redux": "npm:react-router-redux@^2.1.0",
       "redux": "npm:redux@^3.0.5",
       "redux-devtools": "npm:redux-devtools@^3.0.0",
-      "redux-thunk": "npm:redux-thunk@^1.0.2"
+      "redux-thunk": "npm:redux-thunk@^1.0.2",
+      "sleep-promise": "npm:sleep-promise@^1.0.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

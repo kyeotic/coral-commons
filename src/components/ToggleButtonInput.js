@@ -37,7 +37,7 @@ export default class ToggleButtonInput extends Component {
 				 <Input type="text" 
 				 		ref="input"
 				 		onKeyDown={this.handleKeyPress}
-				 		placeholder="House Number"
+				 		placeholder={this.props.placeholder}
 				 		autoFocus />
 				 <Button type="submit" bsStyle="primary" >
 						<Glyphicon glyph={'plus'} /> Add New

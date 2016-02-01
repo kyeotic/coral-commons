@@ -15,3 +15,7 @@ export default function createAction(type, actionCreator) {
 		}
 	};
 }
+
+export function autoAction(type, payload) {
+	return { type, payload }
+}

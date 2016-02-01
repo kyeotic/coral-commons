@@ -1,0 +1,1 @@
+module.exports = require("npm:sleep-promise@1.0.0/lib/index.js");
