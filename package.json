@@ -20,6 +20,7 @@
       "alertify.js": "npm:alertify.js@^1.0.8",
       "axios": "npm:axios@^0.9.1",
       "firebase": "npm:firebase@^2.4.0",
+      "function-bind": "npm:function-bind@^1.0.2",
       "immutable": "npm:immutable@^3.7.6",
       "phone-formatter": "npm:phone-formatter@^0.0.2",
       "react": "npm:react@^0.14.3",

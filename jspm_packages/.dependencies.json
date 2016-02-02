@@ -529,5 +529,6 @@
   },
   "npm:alertify.js@1.0.8": {},
   "npm:sleep-promise@1.0.0": {},
-  "npm:phone-formatter@0.0.2": {}
+  "npm:phone-formatter@0.0.2": {},
+  "npm:function-bind@1.0.2": {}
 }

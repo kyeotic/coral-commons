@@ -119,7 +119,7 @@ export default class Resident extends Component {
 		let phones = mapToKeyedList(resident.phones)
 		let emails = mapToKeyedList(resident.emails)
 
-		let residentTypes = ['Owner', 'Renter']
+		let residentTypes = ['Owner', 'Renter', 'Board Member']
 
 		return (
 			<div>

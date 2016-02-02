@@ -7,6 +7,7 @@ import mapToKeyedList from 'util/mapToKeyedList'
 import residents from 'residents/actions'
 import toast from 'util/toast'
 import dynamicSort from 'util/dynamicSort'
+import objectValues from 'util/objectValues'
 
 @connect(state => {
 	let residents = mapToKeyedList(state.residents.get('items').toJS())
@@ -47,6 +48,8 @@ export default class Residents extends Component {
 							<th>Name</th>
 							<th>Type</th>
 							<th>House</th>
+							<th>Phone</th>
+							<th>Email</th>
 							<th className="text-right">Actions</th>
 						</tr>
 					</thead>
@@ -56,6 +59,8 @@ export default class Residents extends Component {
 							<td>{resident.fullName}</td>
 							<td>{resident.type}</td>
 							<td>{resident.house ? resident.house.number : null}</td>
+							<td>{resident.phones ? objectValues(resident.phones).join(', ') : null}</td>
+							<td>{resident.emails ? objectValues(resident.emails).join(', ') : null}</td>
 							<td>
 								<ButtonToolbar className="pull-right">
 									<Link className={'btn btn-default btn-sm'} to={'/residents/' + resident.id}>
