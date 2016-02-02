@@ -1,7 +1,7 @@
 var firebaseSecret = process.env.firebaseSecret || require(__dirname + '/env.json').firebaseSecret,
     request = require('request-promise'),
     newUserRole = 'Unverified',
-    firebaseName = 'https://coral-commons-dev.firebaseio.com';
+    firebaseRef = process.env.firebaseRef || require(__dirname + '/env.json').firebaseRef;
 
 module.exports = userRoute;
 
