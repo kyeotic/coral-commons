@@ -36,11 +36,12 @@ export default class NavBar extends Component {
                         <NavLink href={'/houses'} label={'Houses'} />
                     </Nav>
                     <Nav pullRight>
-                        <NavDropdown title={this.props.userEmail}>
-                            <MenuItem><NavLink href={'/profile'} label={<span><Glyphicon glyph={'user'}/> Profile</span>} /></MenuItem>
+                        <NavDropdown title={this.props.userEmail} id="profile-dropdown">
+                            <li><Link to={'/profile'}><Glyphicon glyph={'user'}/> Profile</Link></li>
                             {isManager ? 
-                                <MenuItem><NavLink href={'/users'} label={<span><Glyphicon glyph={'th-list'}/> Users</span>} /></MenuItem> : 
-                                null 
+                                <li>
+                                    <Link to={'/users'}><Glyphicon glyph={'th-list'}/> Users</Link>
+                                </li>: null 
                             }
                             <MenuItem divider />
                             <MenuItem onClick={this.props.logout}><Glyphicon glyph={'log-out'}/> Log Out</MenuItem>

@@ -96,7 +96,7 @@ export default class House extends Component {
 											<option value={''}>Add a resident</option>
 											{residents
 												.filter(resident => (house.residents || {})[resident.id] !== true)
-												.map(resident => <option value={resident.id}>{resident.fullName}</option>)
+												.map(resident => <option key={resident.id} value={resident.id}>{resident.fullName}</option>)
 											}
 										</Input>
 									 	<Button bsStyle="primary"
@@ -111,7 +111,7 @@ export default class House extends Component {
 									{residents
 										.filter(resident => (house.residents || {})[resident.id] === true)
 										.map(resident=>{
-									return (<tr>
+									return (<tr key={resident.id}>
 										<td>{resident.fullName}</td>
 										<td>
 											<div className="pull-right">

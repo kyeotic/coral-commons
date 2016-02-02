@@ -27,13 +27,13 @@ export default class Users extends Component {
 			return userRole
 
 		let optionRoles = [
-			<option value={'Board Member'}>Board Member</option>,
-			<option value={'Verified'}>Verified</option>,
-			<option value={'Unverified'}>Unverified</option>
+			<option key={'Board Member'} value={'Board Member'}>Board Member</option>,
+			<option key={'Verified'} value={'Verified'}>Verified</option>,
+			<option key={'Unverified'} value={'Unverified'}>Unverified</option>
 		]
 
 		if (authRole === 'Admin')
-			optionRoles.unshift(<option value={'Admin'}>Admin</option>)
+			optionRoles.unshift(<option key={'Admin'} value={'Admin'}>Admin</option>)
 
 		return (
 			<Input type="select" bsSize="small"
@@ -63,7 +63,7 @@ export default class Users extends Component {
 					</thead>
 					<tbody>
 						{users.map(user=>{
-						return (<tr>
+						return (<tr key={user.id}>
 							<td>{user.name}</td>
 							<td>{ this.renderUserRoles(user)}</td>
 							<td>{user.residentId && residents[user.residentId] ? residents[user.residentId].fullName : ''}</td>
@@ -71,7 +71,7 @@ export default class Users extends Component {
 								{authRole === 'Admin' || (authRole === 'Board Member' && ['Verified', 'Unverfied'].indexOf(user.role) !== -1) ?
 									<ButtonToolbar className="pull-right">
 										<Button bsStyle="danger" bsSize="small"
-											onClick={() => removeUser(user.id)}>
+											onClick={() => this.removeUser(user.id)}>
 											<Glyphicon glyph="remove" />
 										</Button>
 									</ButtonToolbar>: null

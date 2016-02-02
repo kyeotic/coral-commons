@@ -27,7 +27,7 @@ export default class Residents extends Component {
 			return
 		}
 
-		createResident({fullName})
+		createResident({newFullName})
 	}
 	render() {
 		let { createResident, removeResident, isManager } = this.props
@@ -55,7 +55,7 @@ export default class Residents extends Component {
 					</thead>
 					<tbody>
 						{residents.map(resident=>{
-						return (<tr>
+						return (<tr key={resident.id}>
 							<td>{resident.fullName}</td>
 							<td>{resident.type}</td>
 							<td>{resident.house ? resident.house.number : null}</td>

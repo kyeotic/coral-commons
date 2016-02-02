@@ -18,8 +18,10 @@ import phoneFormat from 'phone-formatter'
 
 	let houses = state.houses.get('items').toJS()
 	let users = state.users.get('items').toJS()
+	let isManager = state.auth.get('isManager')
+	let isOwningUser = resident.userId === state.auth.get('userId')
 
-	return {resident, houses, users};
+	return {resident, houses, users, isManager, isOwningUser};
 }, { update: residents.update, updateHouse: houses.update, updateUser: users.update })
 export default class Resident extends Component {
 
@@ -111,7 +113,8 @@ export default class Resident extends Component {
 	}
 
 	render() {
-		let { update, resident, houses, users } = this.props
+		let { update, resident, houses, users, isManager, isOwningUser } = this.props
+		let canUpdate = isManager || isOwningUser
 
 		if (!resident) return null
 
@@ -134,7 +137,7 @@ export default class Resident extends Component {
 				<Grid fluid>
 					<Row>
 						<Col sm={5}>
-							<Input type="text"
+							<Input type="text" disabled={!canUpdate}
 									value={resident.fullName}
 									label="Full Name"
 									placeholder="Full Name"
@@ -143,39 +146,39 @@ export default class Resident extends Component {
 					</Row>
 					<Row>
 						<Col sm={5}>
-							<Input type="select"
+							<Input type="select" disabled={!isManager}
 									value={resident.houseId || ''}
 									label="House"
 									onChange={e => this.onUpdateHouse(e.target.value)}>
 									<option value={''}>Select a house</option>
 								{houses.map(house => {
-									return <option value={house.id}>{house.number}</option>
+									return <option value={house.id} key={house.id}>{house.number}</option>
 								})}
 							</Input>
 						</Col>
 					</Row>
 					<Row>
 						<Col sm={5}>
-							<Input type="select"
+							<Input type="select" disabled={!isManager}
 									value={resident.type || ''}
 									label="Type"
 									onChange={e =>  update(Object.assign({}, resident, {type: e.target.value}))}>
 									{resident.type ? null : <option value={''}>Select a type</option>}
 								{residentTypes.map(type => {
-									return <option value={type}>{type}</option>
+									return <option value={type} key={type}>{type}</option>
 								})}
 							</Input>
 						</Col>
 					</Row>
 					<Row>
 						<Col sm={5}>
-							<Input type="select"
+							<Input type="select" disabled={!isManager}
 									value={resident.userId || ''}
 									label="User"
 									onChange={e => this.onUpdateUser(e.target.value)}>
 									<option value={''}>Select a user</option>
 								{users.map(user => {
-									return <option value={user.id}>{user.name}</option>
+									return <option value={user.id} key={user.id}>{user.name}</option>
 								})}
 							</Input>
 						</Col>
@@ -184,24 +187,28 @@ export default class Resident extends Component {
 						<Col sm={6}>
 							<div className={"page-header"}>
 								<h2>Phones
+									{ canUpdate ? 
 									<div className="pull-right">
 										<ToggleButtonInput onSubmit={(newPhoneNumber) => this.onAddPhone(newPhoneNumber)}
 														placeholder="Phone Number" />
-									</div>
+									</div> : null
+									}
 								</h2>
 							</div>
 							<Table striped hover>
 								<tbody>
 									{phones.map(phone=>{
-									return (<tr>
+									return (<tr key={phone.id}>
 										<td>{phone.value}</td>
 										<td>
+											{ canUpdate ? 
 											<div className="pull-right">
 												<Button bsStyle="danger" bsSize="small"
 													onClick={() => this.onRemovePhone(phone.id)}>
 													<Glyphicon glyph="remove" />
 												</Button>
-											</div>
+											</div> : null
+											}
 										</td>
 									</tr>)
 									})}
@@ -211,24 +218,28 @@ export default class Resident extends Component {
 						<Col sm={6}>
 							<div className={"page-header"}>
 								<h2>Email Addresses
+									{ canUpdate ? 
 									<div className="pull-right">
 										<ToggleButtonInput onSubmit={(newEmail) => this.onAddEmail(newEmail)}
 														placeholder="Email Address" />
-									</div>
+									</div> : null
+									}
 								</h2>
 							</div>
 							<Table striped hover>
 								<tbody>
 									{emails.map(email=>{
-									return (<tr>
+									return (<tr key={email.id}>
 										<td>{email.value}</td>
 										<td>
+											{ canUpdate ? 
 											<div className="pull-right">
 												<Button bsStyle="danger" bsSize="small"
 													onClick={() => this.onRemoveEmail(email.id)}>
 													<Glyphicon glyph="remove" />
 												</Button>
-											</div>
+											</div> : null
+											}
 										</td>
 									</tr>)
 									})}

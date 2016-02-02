@@ -56,7 +56,7 @@ export default class Bulletins extends Component {
 								: null}
 						</h2>)
 					return (
-						<Panel header={title}>
+						<Panel header={title} key={bulletin.id}>
 							<Markdown source={bulletin.content} />
 						</Panel>
 					)

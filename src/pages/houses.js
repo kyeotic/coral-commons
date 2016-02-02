@@ -56,7 +56,7 @@ export default class Houses extends Component {
 					</thead>
 					<tbody>
 						{houses.map(house=>{
-						return (<tr>
+						return (<tr key={house.id}>
 							<td>{house.number}</td>
 							<td>{house.garage}</td>
 							<td>
