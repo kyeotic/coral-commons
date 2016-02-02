@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { Link } from 'react-router';
+import { Link } from 'react-router'
 import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonToolbar  } from 'react-bootstrap'
 import ToggleButtonInput from 'components/toggleButtonInput'
 import mapToKeyedList from 'util/mapToKeyedList'

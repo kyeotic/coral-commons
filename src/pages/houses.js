@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
-import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonGroup  } from 'react-bootstrap'
+import { Link } from 'react-router'
+import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonToolbar  } from 'react-bootstrap'
 import ToggleButtonInput from 'components/toggleButtonInput'
 import mapToKeyedList from 'util/mapToKeyedList'
 import houses from 'houses/actions'
@@ -36,12 +37,15 @@ export default class Houses extends Component {
 							<td>{house.number}</td>
 							<td>{house.garage}</td>
 							<td>
-								<ButtonGroup className="pull-right">
+								<ButtonToolbar className="pull-right">
+									<Link className={'btn btn-default btn-sm'} to={'/houses/' + house.id}>
+										<Glyphicon glyph="edit" />
+									</Link>
 									<Button bsStyle="danger" bsSize="small"
 										onClick={() => removeHouse(house.id)}>
 										<Glyphicon glyph="remove" />
 									</Button>
-								</ButtonGroup>
+								</ButtonToolbar>
 							</td>
 						</tr>)
 						})}

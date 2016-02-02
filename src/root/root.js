@@ -9,6 +9,7 @@ import Residents from 'pages/residents'
 import Resident from 'pages/resident'
 import UserProfile from 'pages/userProfile'
 import Houses from 'pages/houses'
+import House from 'pages/house'
 
 const routes = (
 	<Router history={browserHistory}>
@@ -18,6 +19,7 @@ const routes = (
       	<Route path="residents/:id" component={Resident} />
       	<Route path="users" component={Users} />
       	<Route path="houses" component={Houses} />
+      	<Route path="houses/:id" component={House} />
       	<Route path="profile" component={UserProfile} />
       </Route>
     </Router>
