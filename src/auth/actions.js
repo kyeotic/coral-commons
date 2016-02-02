@@ -7,6 +7,9 @@ import http from 'util/http'
 export const UPDATE_USER_ID = 'UPDATE_USER_ID'
 export const updateUserId = action(UPDATE_USER_ID)
 
+export const UPDATE_USER_ROLE = 'UPDATE_USER_ROLE'
+export const updateUserRole = action(UPDATE_USER_ROLE)
+
 //Login Form
 //
 export const UPDATE_FORM_EMAIL  = 'UPDATE_FORM_EMAIL'

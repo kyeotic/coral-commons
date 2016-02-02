@@ -55,3 +55,6 @@ access:
   - location: /
     read:  isVerified()
     write: true
+
+  - location: users/$userId/
+    read:    $userId === auth.uid
