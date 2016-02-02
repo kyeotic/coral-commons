@@ -5,6 +5,8 @@ import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonToolbar  
 import ToggleButtonInput from 'components/toggleButtonInput'
 import mapToKeyedList from 'util/mapToKeyedList'
 import residents from 'residents/actions'
+import toast from 'util/toast'
+import dynamicSort from 'util/dynamicSort'
 
 @connect(state => {
 	let residents = mapToKeyedList(state.residents.get('items').toJS())
@@ -16,15 +18,25 @@ import residents from 'residents/actions'
 	return {residents, isManager: state.auth.get('isManager')}
 }, { createResident: residents.push, removeResident: residents.remove })
 export default class Residents extends Component {
+	onAddResident = (newFullName) => {
+		let { createResident } = this.props
+
+		if (this.props.residents.find(r => r.fullName === newFullName)) {
+			toast.error('Resident with this name exists')
+			return
+		}
+
+		createResident({fullName})
+	}
 	render() {
 		let { createResident, removeResident, isManager } = this.props
-		let residents = this.props.residents
+		let residents = this.props.residents.sort(dynamicSort('fullName'))
 		return (
 			<div>
 				<div className={"page-header"}>
 					<h1>Residents
 					<div className="pull-right">
-						<ToggleButtonInput onSubmit={(fullName) => createResident({fullName})}
+						<ToggleButtonInput onSubmit={(fullName) => this.onAddResident(fullName)}
 										placeholder="Full Name" />
 					</div>
 					</h1>
