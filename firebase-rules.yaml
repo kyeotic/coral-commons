@@ -53,6 +53,16 @@ schema:
           emails:
             type: object
             ~$email: {type: string}
+    bulletins:
+      type: object
+      $bulletin:
+        type: object
+        constraint: isVerified() && (isManager() || (prev.exists() && isUser(prev.userId)) || (isUser(next.userId) && createOnly()))
+        properties:
+          userId: { type: string, constraint: isUser(next) || deleteOnly()}
+          title: {type: string }
+          content: { type: string }
+          date: { type: string }
 
 access:
   - location: /

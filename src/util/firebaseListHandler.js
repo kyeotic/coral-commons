@@ -10,6 +10,7 @@ const CHILD_CHANGED = 'child_changed'
 export default class FirebaseListHandler {
 	constructor(firebaseRef, config = {}) {
 		this.ref = firebaseRef
+		this.query = config.query || this.ref
 
 		//Firebase subscriptions
 		this.ADDED = Symbol('ADDED')
@@ -40,18 +41,18 @@ export default class FirebaseListHandler {
 	}
 
 	startListening = (dispatch) => {
-		this.ref.on(CHILD_ADDED, snapshot => 
+		this.query.on(CHILD_ADDED, snapshot => 
 			dispatch(this.childAdded({id: snapshot.key(), value: snapshot.val()})))
-		this.ref.on(CHILD_REMOVED, snapshot => 
+		this.query.on(CHILD_REMOVED, snapshot => 
 			dispatch(this.childRemoved({id: snapshot.key()})))
-		this.ref.on(CHILD_CHANGED, snapshot => 
+		this.query.on(CHILD_CHANGED, snapshot => 
 			dispatch(this.childUpdated({id: snapshot.key(), value: snapshot.val()})))
 	}
 
 	stopListening = () => {
-		this.ref.off(CHILD_ADDED, this.childAdded)
-		this.ref.off(CHILD_REMOVED, this.childRemoved)
-		this.ref.off(CHILD_CHANGED, this.childUpdated)
+		this.query.off(CHILD_ADDED, this.childAdded)
+		this.query.off(CHILD_REMOVED, this.childRemoved)
+		this.query.off(CHILD_CHANGED, this.childUpdated)
 	}
 
 	push = (child) => {
@@ -74,7 +75,7 @@ export default class FirebaseListHandler {
 		const child = this.ref.child(id)
 		return dispatch => {
 			dispatch(autoAction(this.REMOVE_START, id))
-			child.remove()
+			return child.remove()
 				.then(() => {
 					toast.success(`${this.singularName} removed successfully`)
 					dispatch(autoAction(this.REMOVE_SUCCESS, id))
@@ -90,7 +91,7 @@ export default class FirebaseListHandler {
 			dispatch(autoAction(this.UPDATE_START, child))
 			let toSave = Object.assign({}, child)
 			delete toSave.id
-			this.ref.child(id || child.id).set(toSave)
+			return this.ref.child(id || child.id).set(toSave)
 				.then(() => {
 					toast.success(`${this.singularName} updated successfully`)
 					dispatch(autoAction(this.UPDATE_SUCCESS, child))

@@ -5,6 +5,7 @@ import navigation from 'navigation/reducer'
 import users from 'users/reducer'
 import residents from 'residents/reducer'
 import houses from 'houses/reducer'
+import bulletins from 'bulletins/reducer'
 
 const rootReducer = combineReducers({
 	routing: routeReducer,
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
 	navigation,
 	users,
 	residents,
-	houses
+	houses,
+	bulletins
 })
 
 export default rootReducer;

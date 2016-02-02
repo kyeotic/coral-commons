@@ -4,6 +4,7 @@ import { subscribeToFirebase } from 'util/firebase'
 import houses from 'houses/actions'
 import users from 'users/actions'
 import residents from 'residents/actions'
+import bulletins from 'bulletins/actions'
 import { Link } from 'react-router';
 
 import NavBar from 'navigation/navBar'
@@ -20,7 +21,8 @@ export default class App extends Component {
 		subscribeToFirebase(this.props.dispatch, [
 			houses,
 			users,
-			residents
+			residents,
+			bulletins
 		])
 	}
 	render() {

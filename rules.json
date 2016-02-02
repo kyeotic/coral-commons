@@ -88,6 +88,30 @@
           }
         }
       }
+    },
+    "bulletins": {
+      ".write":"false",
+      ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+      "$bulletin": {
+        ".write":"(((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member'||data.exists()&&auth.uid!==null&&auth.uid===data.child('userId').val()||auth.uid!==null&&auth.uid===newData.child('userId').val()&&newData.exists()&&!data.exists())&&(!newData.exists()||newData.hasChildren())&&(auth.uid!==null&&auth.uid===newData.child('userId').val()||data.child('userId').exists()&&!newData.child('userId').exists())&&(!newData.child('userId').exists()||newData.child('userId').isString())&&(!newData.child('title').exists()||newData.child('title').isString())&&(!newData.child('content').exists()||newData.child('content').isString())&&(!newData.child('date').exists()||newData.child('date').isString()))))",
+        ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
+        "userId": {
+          ".write":"(((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member'||data.parent().exists()&&auth.uid!==null&&auth.uid===data.parent().child('userId').val()||auth.uid!==null&&auth.uid===newData.parent().child('userId').val()&&newData.parent().exists()&&!data.parent().exists())&&(auth.uid!==null&&auth.uid===newData.val()||data.exists()&&!newData.exists())&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "title": {
+          ".write":"(((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member'||data.parent().exists()&&auth.uid!==null&&auth.uid===data.parent().child('userId').val()||auth.uid!==null&&auth.uid===newData.parent().child('userId').val()&&newData.parent().exists()&&!data.parent().exists())&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "content": {
+          ".write":"(((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member'||data.parent().exists()&&auth.uid!==null&&auth.uid===data.parent().child('userId').val()||auth.uid!==null&&auth.uid===newData.parent().child('userId').val()&&newData.parent().exists()&&!data.parent().exists())&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        },
+        "date": {
+          ".write":"(((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()&&(root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member'||data.parent().exists()&&auth.uid!==null&&auth.uid===data.parent().child('userId').val()||auth.uid!==null&&auth.uid===newData.parent().child('userId').val()&&newData.parent().exists()&&!data.parent().exists())&&(!newData.exists()||newData.isString()))))",
+          ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
+        }
+      }
     }
   }
 }
