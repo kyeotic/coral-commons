@@ -1,7 +1,7 @@
 import Firebase from 'firebase'
 import { updateEmail, updateUserId, updateUserRole } from 'auth/actions'
 
-const rootFirebase = new Firebase("https://coral-commons-dev.firebaseio.com")
+const rootFirebase = new Firebase(window._firebaseRef)
 
 export default rootFirebase
 
