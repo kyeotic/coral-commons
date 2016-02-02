@@ -9,7 +9,8 @@ import toast from 'util/toast'
 import dynamicSort from 'util/dynamicSort'
 
 @connect(state => ({
-	houses: mapToKeyedList(state.houses.get('items').toJS())
+	houses: mapToKeyedList(state.houses.get('items').toJS()),
+	residents: state.residents.get('items').toJS()
 }), { createHouse: houses.push, removeHouse: houses.remove })
 export default class Houses extends Component {
 
@@ -22,6 +23,13 @@ export default class Houses extends Component {
 		}
 
 		createHouse({number})
+	}
+
+	getResidents = (house) => {
+		let { residents } = this.props
+		return house.residents ? Object.keys(house.residents)
+								.filter(k => residents[k])
+								.map(k => residents[k].fullName).join(', ') : ''
 	}
 
 	render() {
@@ -42,6 +50,7 @@ export default class Houses extends Component {
 						<tr>
 							<th>#</th>
 							<th>Garage</th>
+							<th>Residents</th>
 							<th className="text-right">Actions</th>
 						</tr>
 					</thead>
@@ -50,6 +59,9 @@ export default class Houses extends Component {
 						return (<tr>
 							<td>{house.number}</td>
 							<td>{house.garage}</td>
+							<td>
+								{this.getResidents(house)}
+							</td>
 							<td>
 								<ButtonToolbar className="pull-right">
 									<Link className={'btn btn-default btn-sm'} to={'/houses/' + house.number}>
