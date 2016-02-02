@@ -10,7 +10,8 @@ import dynamicSort from 'util/dynamicSort'
 
 @connect(state => ({
 	houses: mapToKeyedList(state.houses.get('items').toJS()),
-	residents: state.residents.get('items').toJS()
+	residents: state.residents.get('items').toJS(),
+	isManager: state.auth.get('isManager')
 }), { createHouse: houses.push, removeHouse: houses.remove })
 export default class Houses extends Component {
 
@@ -33,16 +34,18 @@ export default class Houses extends Component {
 	}
 
 	render() {
-		let { removeHouse } = this.props
+		let { removeHouse, isManager } = this.props
 		let houses = this.props.houses.sort(dynamicSort('number'))
 		return (
 			<div>
 				<div className={"page-header"}>
 					<h1>Houses
-					<div className="pull-right">
-						<ToggleButtonInput onSubmit={(number) => this.onAddHouse(number)}
-										placeholder="House Number" />
-					</div>
+					{isManager ?
+						<div className="pull-right">
+							<ToggleButtonInput onSubmit={(number) => this.onAddHouse(number)}
+											placeholder="House Number" />
+						</div> : null
+					}
 					</h1>
 				</div>
 				<Table striped hover responsive >

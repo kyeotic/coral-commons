@@ -36,10 +36,11 @@ export default class Residents extends Component {
 			<div>
 				<div className={"page-header"}>
 					<h1>Residents
+					{isManager ?
 					<div className="pull-right">
 						<ToggleButtonInput onSubmit={(fullName) => this.onAddResident(fullName)}
 										placeholder="Full Name" />
-					</div>
+					</div> : null}
 					</h1>
 				</div>
 				<Table striped hover responsive >
