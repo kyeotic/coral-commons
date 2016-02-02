@@ -12,7 +12,7 @@ export default class Bulletins extends Component {
 		return (
 			<div>
 				<div className={"page-header"}>
-					<h1>Bulletins
+					<h1>Bulletins (Coming Soon)
 					</h1>
 				</div>
 			</div>

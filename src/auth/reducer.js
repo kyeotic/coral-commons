@@ -21,6 +21,21 @@ let defaultState = {
 
 	uid: null,
 	email: null,
+
+	isAdmin: false,
+	isBoard: false,
+	isManager: false,
+	isVerified: false	
+}
+
+function roleMutations(role) {
+	return function(state) {
+		state.set('userRole', role)
+			.set('isAdmin', role === 'Admin')
+			.set('isBoard', role === 'Board Member')
+			.set('isManager', role === 'Admin' || role === 'Board Member')
+			.set('isVerified', role !== 'Unverified')
+	}
 }
 
 export default function auth(state = Immutable.Map(defaultState), action) {
@@ -31,10 +46,10 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 	case users.ADDED:
 	case users.UPDATED:
 		return action.payload.id === state.get('userId') ?
-			state.set('userRole', action.payload.value.role) :
+			state.withMutations(roleMutations(action.payload.value.role)) :
 			state
 	case UPDATE_USER_ROLE:
-		return state.set('userRole', action.payload)
+		return state.withMutations(roleMutations(action.payload))
 
 	//Form
 	case UPDATE_FORM_EMAIL:

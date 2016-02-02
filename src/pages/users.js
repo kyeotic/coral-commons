@@ -9,7 +9,7 @@ import users from 'users/actions'
 @connect(state => ({
 	users: mapToKeyedList(state.users.get('items').toJS()),
 	residents: state.residents.get('items').toJS(),
-	userRole: state.auth.get('userRole')
+	authRole: state.auth.get('userRole')
 }), { update: users.update, remove: users.remove })
 export default class Users extends Component {
 
@@ -19,7 +19,7 @@ export default class Users extends Component {
 	}
 
 	renderUserRoles = (user) => {
-		let authRole = this.props.userRole,
+		let authRole = this.props.authRole,
 			userRole = user.role,
 			update = this.props.update
 
@@ -36,7 +36,7 @@ export default class Users extends Component {
 			optionRoles.unshift(<option value={'Admin'}>Admin</option>)
 
 		return (
-			<Input type="select"
+			<Input type="select" bsSize="small"
 					value={userRole}
 					onChange={(e => update(Object.assign({}, user, {role: e.target.value})))}>
 				{optionRoles}
@@ -45,7 +45,7 @@ export default class Users extends Component {
 	}
 
 	render() {
-		let { users, update, remove, residents, userRole } = this.props
+		let { users, update, remove, residents, authRole } = this.props
 		return (
 			<div>
 				<div className={"page-header"}>
@@ -57,7 +57,8 @@ export default class Users extends Component {
 							<th>Name</th>
 							<th>Role</th>
 							<th>Resident</th>
-							<th className="text-right">Actions</th>
+							{authRole === 'Admin' || authRole === 'Board Member' ?
+							 <th className="text-right">Actions</th> : null}
 						</tr>
 					</thead>
 					<tbody>
@@ -67,12 +68,15 @@ export default class Users extends Component {
 							<td>{ this.renderUserRoles(user)}</td>
 							<td>{user.residentId && residents[user.residentId] ? residents[user.residentId].fullName : ''}</td>
 							<td>
-								<ButtonToolbar className="pull-right">
-									<Button bsStyle="danger" bsSize="small"
-										onClick={() => removeUser(user.id)}>
-										<Glyphicon glyph="remove" />
-									</Button>
-								</ButtonToolbar>
+								{authRole === 'Admin' || (authRole === 'Board Member' && ['Verified', 'Unverfied'].indexOf(user.role) !== -1) ?
+									<ButtonToolbar className="pull-right">
+										<Button bsStyle="danger" bsSize="small"
+											onClick={() => removeUser(user.id)}>
+											<Glyphicon glyph="remove" />
+										</Button>
+									</ButtonToolbar>: null
+								} 
+								
 							</td>
 						</tr>)
 						})}

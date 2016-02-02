@@ -10,7 +10,8 @@ import { toggleCollapse } from 'navigation/actions'
 
 @connect(state => ({
     userEmail: state.auth.get('email'),
-    isCollapseExpanded: state.navigation.get('isCollapseExpanded')
+    isCollapseExpanded: state.navigation.get('isCollapseExpanded'),
+    isManager: state.auth.get('isManager')
 }), { logout, toggleCollapse })
 export default class NavBar extends Component {
     static propTypes = {
@@ -19,6 +20,7 @@ export default class NavBar extends Component {
         toggleCollapse: PropTypes.func.isRequired
     }
 	render() {
+        let { isManager } = this.props
 		return (
             <Navbar inverse fluid expanded={this.props.isCollapseExpanded} onToggle={this.props.toggleCollapse}>
                 <Navbar.Header>
@@ -32,11 +34,14 @@ export default class NavBar extends Component {
                         <NavLink href={'/'} label={'Bulletins'} />
                         <NavLink href={'/residents'} label={'Residents'} />
                         <NavLink href={'/houses'} label={'Houses'} />
-                        <NavLink href={'/users'} label={'Users'} />
                     </Nav>
                     <Nav pullRight>
                         <NavDropdown title={this.props.userEmail}>
-                            <MenuItem><NavLink href={'/profile'} label={<span><Glyphicon glyph={'user'}/>Profile</span>} /></MenuItem>
+                            <MenuItem><NavLink href={'/profile'} label={<span><Glyphicon glyph={'user'}/> Profile</span>} /></MenuItem>
+                            {isManager ? 
+                                <MenuItem><NavLink href={'/users'} label={<span><Glyphicon glyph={'th-list'}/> Users</span>} /></MenuItem> : 
+                                null 
+                            }
                             <MenuItem divider />
                             <MenuItem onClick={this.props.logout}><Glyphicon glyph={'log-out'}/> Log Out</MenuItem>
                         </NavDropdown>

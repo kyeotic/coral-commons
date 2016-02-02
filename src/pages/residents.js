@@ -13,11 +13,11 @@ import residents from 'residents/actions'
 						resident.house = state.houses.get('items').toJS()[resident.houseId]
 					return resident
 				})
-	return {residents}
+	return {residents, isManager: state.auth.get('isManager')}
 }, { createResident: residents.push, removeResident: residents.remove })
 export default class Residents extends Component {
 	render() {
-		let { createResident, removeResident } = this.props
+		let { createResident, removeResident, isManager } = this.props
 		let residents = this.props.residents
 		return (
 			<div>
@@ -49,10 +49,11 @@ export default class Residents extends Component {
 									<Link className={'btn btn-default btn-sm'} to={'/residents/' + resident.id}>
 										<Glyphicon glyph="edit" />
 									</Link>
+									{isManager ? 
 									<Button bsStyle="danger" bsSize="small"
 										onClick={() => removeResident(resident.id)}>
 										<Glyphicon glyph="remove" />
-									</Button>
+									</Button> : null}
 								</ButtonToolbar>
 							</td>
 						</tr>)
