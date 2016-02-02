@@ -52,7 +52,7 @@ export default class Houses extends Component {
 							<td>{house.garage}</td>
 							<td>
 								<ButtonToolbar className="pull-right">
-									<Link className={'btn btn-default btn-sm'} to={'/houses/' + house.id}>
+									<Link className={'btn btn-default btn-sm'} to={'/houses/' + house.number}>
 										<Glyphicon glyph="edit" />
 									</Link>
 									<Button bsStyle="danger" bsSize="small"

@@ -7,10 +7,10 @@ import residents from 'residents/actions'
 import houses from 'houses/actions'
 
 @connect((state, props) => {
-	let house = state.houses.get('items').get(props.params.id)
+	let house = mapToKeyedList(state.houses.get('items').toJS())
+				.find(h => h.number === props.params.id || h.id === props.params.id)
 	if (!house) 
 		return { house: null }
-	house.id = props.params.id
 
 	let residents = state.residents.get('items').toJS()
 
@@ -69,7 +69,7 @@ export default class House extends Component {
 				<Grid fluid>
 					<Row>
 						<Col sm={5}>
-							<Input type="text"
+							<Input type="text" disabled
 									value={house.number}
 									label="House Number"
 									placeholder="House Number"

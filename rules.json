@@ -26,10 +26,10 @@
       ".write":"false",
       ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
       "$house": {
-        ".write":"(((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.hasChildren())&&(!newData.child('number').exists()||newData.child('number').isString())&&(!newData.child('garage').exists()||newData.child('garage').isString())&&(!newData.child('residents').exists()||newData.child('residents').hasChildren())))))",
+        ".write":"(((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.hasChildren())&&(newData.child('number').exists()&&!data.child('number').exists()||data.child('number').exists()&&!newData.child('number').exists())&&(!newData.child('number').exists()||newData.child('number').isString())&&(!newData.child('garage').exists()||newData.child('garage').isString())&&(!newData.child('residents').exists()||newData.child('residents').hasChildren())))))",
         ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))",
         "number": {
-          ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(!newData.exists()||newData.isString()))))",
+          ".write":"((((root.child('users').child(auth.uid).child('role').val()==='Admin'||root.child('users').child(auth.uid).child('role').val()==='Board Member')&&(newData.exists()&&!data.exists()||data.exists()&&!newData.exists())&&(!newData.exists()||newData.isString()))))",
           ".read":"((root.child('users').child(auth.uid).child('role').val()!=='Unverified'&&root.child('users').child(auth.uid).child('role').exists()))"
         },
         "garage": {

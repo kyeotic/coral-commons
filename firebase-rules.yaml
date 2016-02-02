@@ -5,6 +5,9 @@ functions:
   - isAdmin(): hasRole('Admin')
   - isManager(): hasRole('Admin') || hasRole('Board Member')
   - isVerified(): root.users[auth.uid].role !== 'Unverified' && root.users[auth.uid].role.exists()
+  - createOnly():      next.exists() && !prev.exists()
+  - deleteOnly():      prev.exists() && !next.exists()
+  - createOrDelete():  createOnly() || deleteOnly()
 
 schema:
   type: object
@@ -27,7 +30,7 @@ schema:
       type: object
       constraint: isManager()
       properties:
-        number: {type: string}
+        number: {type: string, constraint: createOrDelete()}
         garage: {type: string}
         residents: 
           type: object
