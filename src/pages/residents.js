@@ -33,14 +33,16 @@ export default class Residents extends Component {
 					<thead>
 						<tr>
 							<th>Name</th>
+							<th>Type</th>
 							<th>House</th>
-							<th>Actions</th>
+							<th className="text-right">Actions</th>
 						</tr>
 					</thead>
 					<tbody>
 						{residents.map(resident=>{
 						return (<tr>
 							<td>{resident.fullName}</td>
+							<td>{resident.type}</td>
 							<td>{resident.house ? resident.house.number : null}</td>
 							<td>
 								<ButtonToolbar className="pull-right">

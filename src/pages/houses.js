@@ -27,7 +27,7 @@ export default class Houses extends Component {
 						<tr>
 							<th>#</th>
 							<th>Garage</th>
-							<th>Actions</th>
+							<th className="text-right">Actions</th>
 						</tr>
 					</thead>
 					<tbody>

@@ -233,9 +233,6 @@ export default class Resident extends Component {
 						</Col>
 					</Row>
 				</Grid>
-
-				
-
 			</div>
 		)
 	}
