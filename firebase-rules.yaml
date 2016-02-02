@@ -7,7 +7,7 @@ functions:
   - isVerified(): root.users[auth.uid].role !== 'Unverified' && root.users[auth.uid].role.exists()
   - createOnly():      next.exists() && !prev.exists()
   - deleteOnly():      prev.exists() && !next.exists()
-  - createOrDelete():  createOnly() || deleteOnly()
+  - createOrDelete():  createOnly() || deleteOnly() || (next === prev)
 
 schema:
   type: object
