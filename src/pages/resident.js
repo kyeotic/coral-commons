@@ -6,6 +6,7 @@ import ToggleButtonInput from 'components/toggleButtonInput'
 import residents from 'residents/actions'
 import houses from 'houses/actions'
 import users from 'users/actions'
+import dynamicSort from 'util/dynamicSort'
 
 import phoneFormat from 'phone-formatter'
 
@@ -118,6 +119,9 @@ export default class Resident extends Component {
 		users = mapToKeyedList(users)
 		let phones = mapToKeyedList(resident.phones)
 		let emails = mapToKeyedList(resident.emails)
+
+		houses.sort(dynamicSort("number"))
+		users.sort(dynamicSort("name"))
 
 		let residentTypes = ['Owner', 'Renter', 'Board Member']
 

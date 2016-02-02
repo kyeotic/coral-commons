@@ -5,6 +5,7 @@ import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonGroup  } 
 import ToggleButtonInput from 'components/toggleButtonInput'
 import residents from 'residents/actions'
 import houses from 'houses/actions'
+import dynamicSort from 'util/dynamicSort'
 
 @connect((state, props) => {
 	let house = mapToKeyedList(state.houses.get('items').toJS())
@@ -59,6 +60,7 @@ export default class House extends Component {
 		if (!house) return null
 
 		residents = mapToKeyedList(residents)
+		residents.sort(dynamicSort("fullName"))
 
 		return (
 			<div>
