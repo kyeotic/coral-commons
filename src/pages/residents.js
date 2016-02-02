@@ -42,7 +42,7 @@ export default class Residents extends Component {
 					</div>
 					</h1>
 				</div>
-				<Table striped hover>
+				<Table striped hover responsive >
 					<thead>
 						<tr>
 							<th>Name</th>

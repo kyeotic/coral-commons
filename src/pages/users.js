@@ -51,7 +51,7 @@ export default class Users extends Component {
 				<div className={"page-header"}>
 					<h1>Users</h1>
 				</div>
-				<Table striped hover>
+				<Table striped hover responsive >
 					<thead>
 						<tr>
 							<th>Name</th>

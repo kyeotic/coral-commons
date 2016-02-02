@@ -45,7 +45,7 @@ export default class Houses extends Component {
 					</div>
 					</h1>
 				</div>
-				<Table striped hover>
+				<Table striped hover responsive >
 					<thead>
 						<tr>
 							<th>#</th>
