@@ -3,7 +3,10 @@ import {
 	UPDATE_FORM_EMAIL, UPDATE_FORM_PASSWORD, UPDATE_FORM_NAME, UPDATE_USER_ID, UPDATE_USER_ROLE,
 	TOGGLE_REGISTER, REGISTER_USER_START, REGISTER_USER_SUCCESS, REGISTER_USER_ERROR,
 	LOGIN_USER_START, LOGIN_USER_SUCCESS, LOGIN_USER_ERROR, LOG_OUT_USER,
-	RESET_PASSWORD_START, RESET_PASSWORD_SUCCESS, RESET_PASSWORD_ERROR
+	RESET_PASSWORD_START, RESET_PASSWORD_SUCCESS, RESET_PASSWORD_ERROR,
+	CHANGE_EMAIL_START, CHANGE_EMAIL_SUCCESS, CHANGE_EMAIL_ERROR,
+	CHANGE_PASSWORD_START, CHANGE_PASSWORD_SUCCESS, CHANGE_PASSWORD_ERROR,
+	UPDATE_PASSWORD_IS_TEMPORARY
 } from'auth/actions'
 import users from 'users/actions'
 import Firebase from 'util/firebase'
@@ -21,6 +24,11 @@ let defaultState = {
 
 	uid: null,
 	email: null,
+
+	isChangingEmail: false,
+	isChangingPassword: false,
+
+	isTemporaryPassword: false,
 
 	isAdmin: false,
 	isBoard: false,
@@ -123,6 +131,43 @@ export default function auth(state = Immutable.Map(defaultState), action) {
 			 .set('isResettingPassword', false)
 		})
 
+	//Change Email
+	case CHANGE_EMAIL_START:
+		return state.withMutations(s => {
+			s.set('isChangingEmail', true)
+			 .set('authError', null)
+		})
+	case CHANGE_EMAIL_SUCCESS:
+		return state.withMutations(s => {
+			s.set('isChangingEmail', false)
+			 .set('email', action.payload.newEmail)
+		})
+	case CHANGE_EMAIL_ERROR:
+		return state.withMutations(s => {
+			s.set('isChangingEmail', false)
+			 .set('authError', action.payload)
+		})
+
+	//Change password
+	case CHANGE_PASSWORD_START:
+		return state.withMutations(s => {
+			s.set('isChangingPassword', true)
+			 .set('authError', null)
+		})
+	case CHANGE_PASSWORD_SUCCESS:
+		return state.withMutations(s => {
+			s.set('isChangingPassword', false)
+			 .set('isTemporaryPassword', false)
+		})
+	case CHANGE_PASSWORD_ERROR:
+		return state.withMutations(s => {
+			s.set('isChangingPassword', false)
+			 .set('authError', action.payload)
+		})
+
+	//Temp Password
+	case UPDATE_PASSWORD_IS_TEMPORARY:
+		return state.set('isTemporaryPassword', action.payload)
 
 	default:
 		return state

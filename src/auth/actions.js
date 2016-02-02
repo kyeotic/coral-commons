@@ -1,6 +1,7 @@
 import action from 'util/actionCreator'
 import Firebase from 'util/firebase'
 import http from 'util/http'
+import toast from 'util/toast'
 
 //Auth Id
 //
@@ -70,10 +71,11 @@ export function loginUser(email, password) {
 	return dispatch => {
 		dispatch(loginUserStart(email))
 		return Firebase.authWithPassword({email, password})
-			.then(auth => 
-				dispatch(loginUserSuccess({email, auth})))
-			.catch(error => 
-				dispatch(loginUserError(error.code)))
+			.then(auth => {
+				dispatch(loginUserSuccess({email, auth}))
+			}).catch(error => {
+				dispatch(loginUserError(error.code))
+			})
 	}
 }
 
@@ -103,9 +105,74 @@ export function resetPassword(email) {
 	return (dispatch, getState) => {
 		dispatch(resetPasswordStart(email))
 		Firebase.resetPassword({email})
-			.then(() => 
-					dispatch(resetPasswordSuccess(email)))
-			.catch(error =>
-					dispatch(resetPasswordError(error.code)))
+			.then(() => {
+					dispatch(resetPasswordSuccess(email))
+					toast.success('Password reset email sent')
+			}).catch(error => {
+					dispatch(resetPasswordError(error.code))
+			})
 	}
 }
+
+
+//Change Email
+export const CHANGE_EMAIL_START = 'CHANGE_EMAIL_START'
+export const CHANGE_EMAIL_SUCCESS = 'CHANGE_EMAIL_SUCCESS'
+export const CHANGE_EMAIL_ERROR = 'CHANGE_EMAIL_ERROR'
+
+let changeEmailStart = action(CHANGE_EMAIL_START)
+let changeEmailSuccess = action(CHANGE_EMAIL_SUCCESS)
+let changeEmailError = action(CHANGE_EMAIL_ERROR)
+
+export function changeEmail(credentials) {
+	return (dispatch, getState) => {
+		dispatch(changeEmailStart(credentials))
+		return Firebase.changeEmail(credentials)
+			.then(() => {
+				return logout()
+			})
+			.then(() => {
+				return loginUser(credentials.newEmail, credentials.password)(dispatch)
+			})
+			.then(() => {
+					dispatch(changeEmailSuccess(credentials))
+					toast.success('Email successfully changed')
+			}).catch(error => {
+					dispatch(changeEmailError(error.code))
+					toast.error('An error occured changing your email: ' + error.code)
+			})
+	}
+}
+
+//Change Passwrd
+export const CHANGE_PASSWORD_START = 'CHANGE_PASSWORD_START'
+export const CHANGE_PASSWORD_SUCCESS = 'CHANGE_PASSWORD_SUCCESS'
+export const CHANGE_PASSWORD_ERROR = 'CHANGE_PASSWORD_ERROR'
+
+let changePasswordStart = action(CHANGE_PASSWORD_START)
+let changePasswordSuccess = action(CHANGE_PASSWORD_SUCCESS)
+let changePasswordError = action(CHANGE_PASSWORD_ERROR)
+
+export function changePassword(credentials) {
+	return (dispatch, getState) => {
+		dispatch(changePasswordStart(credentials))
+		return Firebase.changePassword(credentials)
+			.then(() => {
+				return logout()
+			})
+			.then(() => {
+				return loginUser(credentials.email, credentials.newPassword)(dispatch)
+			})
+			.then(() => {
+					dispatch(changePasswordSuccess(credentials))
+					toast.success('Password successfully changed')
+			}).catch(error => {
+					dispatch(changePasswordError(error.code))
+					toast.error('An error occured changing your password: ' + error.code)
+			})
+	}
+}
+
+//Temporary Password
+export const UPDATE_PASSWORD_IS_TEMPORARY = 'UPDATE_PASSWORD_IS_TEMPORARY'
+export let updatePasswordIsTemporary = action(UPDATE_PASSWORD_IS_TEMPORARY)

@@ -1,5 +1,5 @@
 import Firebase from 'firebase'
-import { updateEmail, updateUserId, updateUserRole } from 'auth/actions'
+import { updateEmail, updateUserId, updateUserRole, updatePasswordIsTemporary } from 'auth/actions'
 
 const rootFirebase = new Firebase(window._firebaseRef)
 
@@ -16,6 +16,12 @@ export function subscribeToFirebase(dispatch, handlers = []) {
 		dispatch(updateUserId(auth.uid))
 		dispatch(updateEmail(auth.password.email))
 		handlers.forEach(handler => handler.startListening(dispatch))
+
+		if (auth.password.isTemporaryPassword) {
+			dispatch(updatePasswordIsTemporary(true))
+		} else {
+			dispatch(updatePasswordIsTemporary(false))
+		}
 
 		rootFirebase.child('users').child(auth.uid).child('role').on('value', snapshot => {
 			let role = snapshot.val()
