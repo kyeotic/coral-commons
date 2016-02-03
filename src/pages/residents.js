@@ -27,7 +27,7 @@ export default class Residents extends Component {
 			return
 		}
 
-		createResident({newFullName})
+		createResident({fullName: newFullName})
 	}
 	render() {
 		let { createResident, removeResident, isManager } = this.props

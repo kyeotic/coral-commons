@@ -23,7 +23,7 @@ export default class Houses extends Component {
 			return
 		}
 
-		createHouse({number})
+		createHouse({number: newNumber})
 	}
 
 	getResidents = (house) => {
