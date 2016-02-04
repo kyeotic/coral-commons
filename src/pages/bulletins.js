@@ -6,6 +6,7 @@ import { Link } from 'react-router'
 import mapToKeyedList from 'util/mapToKeyedList'
 import bulletins from 'bulletins/actions'
 import dynamicSort from 'util/dynamicSort'
+import confirm from 'util/confirm'
 
 import Markdown from 'react-markdown'
 
@@ -48,7 +49,7 @@ export default class Bulletins extends Component {
 											<Glyphicon glyph="edit" />
 										</Link>
 										<Button bsStyle="danger" bsSize="xsmall"
-											onClick={() => remove(bulletin.id)}>
+											onClick={() => confirm(`Delete ${bulletin.title}?`, () => remove(bulletin.id))}>
 											<Glyphicon glyph="remove" />
 										</Button>
 								</ButtonToolbar>
