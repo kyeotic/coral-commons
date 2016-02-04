@@ -8,6 +8,7 @@ import residents from 'residents/actions'
 import toast from 'util/toast'
 import dynamicSort from 'util/dynamicSort'
 import objectValues from 'util/objectValues'
+import confirm from 'util/confirm'
 
 @connect(state => {
 	let residents = mapToKeyedList(state.residents.get('items').toJS())
@@ -69,7 +70,7 @@ export default class Residents extends Component {
 									</Link>
 									{isManager ? 
 									<Button bsStyle="danger" bsSize="small"
-										onClick={() => removeResident(resident.id)}>
+										onClick={() => confirm(`Delete ${resident.fullName}?`, () => removeResident(resident.id))}>
 										<Glyphicon glyph="remove" />
 									</Button> : null}
 								</ButtonToolbar>

@@ -5,6 +5,7 @@ import { Input, Panel, Button, Row, Col, Table, Glyphicon, Grid, ButtonToolbar  
 import ToggleButtonInput from 'components/toggleButtonInput'
 import mapToKeyedList from 'util/mapToKeyedList'
 import users from 'users/actions'
+import confirm from 'util/confirm'
 
 @connect(state => ({
 	users: mapToKeyedList(state.users.get('items').toJS()),
@@ -71,7 +72,7 @@ export default class Users extends Component {
 								{authRole === 'Admin' || (authRole === 'Board Member' && ['Verified', 'Unverfied'].indexOf(user.role) !== -1) ?
 									<ButtonToolbar className="pull-right">
 										<Button bsStyle="danger" bsSize="small"
-											onClick={() => this.removeUser(user.id)}>
+											onClick={() => confirm(`Delete ${user.name}?`,() => this.removeUser(user.id))}>
 											<Glyphicon glyph="remove" />
 										</Button>
 									</ButtonToolbar>: null

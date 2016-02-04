@@ -7,6 +7,7 @@ import mapToKeyedList from 'util/mapToKeyedList'
 import houses from 'houses/actions'
 import toast from 'util/toast'
 import dynamicSort from 'util/dynamicSort'
+import confirm from 'util/confirm'
 
 @connect(state => ({
 	houses: mapToKeyedList(state.houses.get('items').toJS()),
@@ -71,7 +72,7 @@ export default class Houses extends Component {
 										<Glyphicon glyph="edit" />
 									</Link>
 									<Button bsStyle="danger" bsSize="small"
-										onClick={() => removeHouse(house.id)}>
+										onClick={() => confirm(`Delete house ${house.number}?`, () => removeHouse(house.id))}>
 										<Glyphicon glyph="remove" />
 									</Button>
 								</ButtonToolbar>
