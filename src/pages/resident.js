@@ -22,7 +22,7 @@ import phoneFormat from 'phone-formatter'
 	let isOwningUser = resident.userId === state.auth.get('userId')
 
 	return {resident, houses, users, isManager, isOwningUser};
-}, { update: residents.update, updateHouse: houses.update, updateUser: users.update })
+}, { update: residents.update, updateHouse: houses.update, updateUserResident: users.updateUserResident })
 export default class Resident extends Component {
 
 	onUpdateHouse = (newHouseId) => {
@@ -53,27 +53,7 @@ export default class Resident extends Component {
 	}
 
 	onUpdateUser = (newUserId) => {
-		newUserId = newUserId === '' ? null : newUserId
-		let { update, resident, users, updateUser } = this.props
-
-		//Already mapped to a user, remove the old one
-		if (resident.userId) {
-			let user = users[resident.userId]
-			if (user.residentId) {
-				delete user.residentId
-				updateUser(user, resident.userId)
-			}
-		}
-
-		//Map new User
-		if (newUserId) {
-			let newUser = users[newUserId]
-			newUser.residentId = resident.id
-			updateUser(newUser, newUserId)
-		}
-
-		resident.userId = newUserId
-		update(resident)
+		this.props.updateUserResident({userId: newUserId, residentId: this.props.resident.id})
 	}
 
 	onAddPhone = (newPhoneNumber) => {
@@ -153,19 +133,6 @@ export default class Resident extends Component {
 									<option value={''}>Select a house</option>
 								{houses.map(house => {
 									return <option value={house.id} key={house.id}>{house.number}</option>
-								})}
-							</Input>
-						</Col>
-					</Row>
-					<Row>
-						<Col sm={5}>
-							<Input type="select" disabled={!isManager}
-									value={resident.type || ''}
-									label="Type"
-									onChange={e =>  update(Object.assign({}, resident, {type: e.target.value}))}>
-									{resident.type ? null : <option value={''}>Select a type</option>}
-								{residentTypes.map(type => {
-									return <option value={type} key={type}>{type}</option>
 								})}
 							</Input>
 						</Col>
