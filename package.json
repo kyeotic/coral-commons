@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel/register src/pages/residents.test",
     "setup": "npm i && jspm i",
     "build:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress",
     "watch:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress --watch",
@@ -50,10 +51,14 @@
     "request-promise": "^2.0.0"
   },
   "devDependencies": {
+    "babel": "^5.8.35",
     "blaze_compiler": "0.0.36",
+    "chai": "^3.5.0",
+    "debug": "^2.2.0",
     "jspm": "^0.16.19",
-    "pm2": "^0.15.10",
+    "mocha": "^2.4.5",
     "stylus": "^0.53.0",
+    "systemjs": "^0.18.17",
     "watch": "^0.16.0"
   }
 }
