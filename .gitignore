@@ -20,5 +20,6 @@ npm-debug.log
 main-built.js
 
 dist/*
+.idea/*
 
 env.json
