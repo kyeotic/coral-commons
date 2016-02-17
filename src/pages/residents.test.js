@@ -1,7 +1,7 @@
-import chai, { expect } from 'chai'
+import { expect } from 'chai'
 import System from 'systemjs'
 
-describe('myModule', function() {
+describe('residents page', function() {
     let residents
 
     before(function () {
