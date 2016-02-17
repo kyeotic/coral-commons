@@ -14,7 +14,7 @@ glob.sync('src/**/*.test.js').forEach(function(file) {
 var System = require('systemjs')
 require('../jspm.config.js')
 
-System.config({bundles: { "dist/dependencies.js": []}})
+System.bundles = {}
 
 System.delete(System.normalizeSync('util/http'));
 System.set(System.normalizeSync('util/http'), System.newModule({ default: { } }));
