@@ -1,8 +1,7 @@
 import Firebase from 'firebase'
 import { updateEmail, updateUserId, updateUserRole, updatePasswordIsTemporary } from 'auth/actions'
-import global from 'util/global'
 
-const rootFirebase = new Firebase(global._firebaseRef)
+const rootFirebase = new Firebase(window._firebaseRef)
 
 export default rootFirebase
 
