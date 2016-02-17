@@ -33,21 +33,21 @@ export default class LoginForm extends Component {
                             value={email}
                             bsStyle={['INVALID_USER', 'EMAIL_TAKEN', 'EMAIL_REQUIRED'].indexOf(authError) !== -1  
                             ? 'error' 
-                            : passwordReset ? 'success' : ''} hasFeedback
+                            : passwordReset ? 'success' : null} hasFeedback
                             onChange={(e) => this.props.updateEmail(e.target.value)} />
                         <Input type="password"
                             placeholder={'password'}
                             label={'Password' + (authError === 'INVALID_PASSWORD' ? ' - Invalid' 
                                                 : authError === 'PASSWORD_REQUIRED' ? ' - Required' : '')}
                             value={password}
-                            bsStyle={['INVALID_PASSWORD', 'PASSWORD_REQUIRED'].indexOf(authError) !== -1 ? 'error' :''} hasFeedback
+                            bsStyle={['INVALID_PASSWORD', 'PASSWORD_REQUIRED'].indexOf(authError) !== -1 ? 'error' : null} hasFeedback
                             onChange={(e) => this.props.updatePassword(e.target.value)} />
                         {showRegister ? 
                             <Input type="text"
                                 label={'Name' + (authError === 'NAME_REQUIRED' ? ' - Required' : '')}
                                 placeholder={'John Smith'}
                                 value={name}
-                                bsStyle={authError === 'NAME_REQUIRED' ? 'error' :''} hasFeedback
+                                bsStyle={authError === 'NAME_REQUIRED' ? 'error' : null} hasFeedback
                                 onChange={(e) => this.props.updateName(e.target.value)} />
                             : <button type="button" onClick={() => this.props.resetPassword(email)} className={'btn btn-sm btn-link'}>Reset Password</button>
                         }
